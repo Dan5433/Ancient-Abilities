@@ -1,4 +1,34 @@
+# Oaths
+team add ancient_abilities.oaths.null
+team add ancient_abilities.oaths.restrict
+team add ancient_abilities.oaths.intimidation
+team add ancient_abilities.oaths.hunter
 
+# Abilities
+
+# Rare
+team add ancient_abilities.abilities.rare.radius
+team add ancient_abilities.abilities.rare.blind
+team add ancient_abilities.abilities.rare.physical
+
+# Epic
+team add ancient_abilities.abilities.epic.speed
+team add ancient_abilities.abilities.epic.durability
+team add ancient_abilities.abilities.epic.damage
+team add ancient_abilities.abilities.epic.healer
+team add ancient_abilities.abilities.epic.delay
+
+# Legendary
+team add ancient_abilities.abilities.legendary.invis
+team add ancient_abilities.abilities.legendary.survivor
+team add ancient_abilities.abilities.legendary.enchanter
+team add ancient_abilities.abilities.legendary.miner
+
+# Unique
+team add ancient_abilities.abilities.unique.warp_gate
+team add ancient_abilities.abilities.unique.summoning
+team add ancient_abilities.abilities.unique.adaptation
+team add ancient_abilities.abilities.unique.viltrumite
 
 say [Ancient Abilities] Succesfully loaded!
 function ancient_abilities:message {target:'@a',message:'{text: "Succesfully loaded! ",color: green},"\\n",{text: "Click here to uninstall.",color: red,bold:true,underlined:true,click_event: {action: "run_command",command: "function ancient_abilities:uninstall"},hover_event: {action:"show_text",value:{text:"Uninstall",color:red}}}'}

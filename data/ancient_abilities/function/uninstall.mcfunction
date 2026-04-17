@@ -1,3 +1,33 @@
+# Oaths
+team remove ancient_abilities.oaths.null
+team remove ancient_abilities.oaths.restrict
+team remove ancient_abilities.oaths.intimidation
+team remove ancient_abilities.oaths.hunter
 
+# Abilities
+
+# Rare
+team remove ancient_abilities.abilities.rare.radius
+team remove ancient_abilities.abilities.rare.blind
+team remove ancient_abilities.abilities.rare.physical
+
+# Epic
+team remove ancient_abilities.abilities.epic.speed
+team remove ancient_abilities.abilities.epic.durability
+team remove ancient_abilities.abilities.epic.damage
+team remove ancient_abilities.abilities.epic.healer
+team remove ancient_abilities.abilities.epic.delay
+
+# Legendary
+team remove ancient_abilities.abilities.legendary.invis
+team remove ancient_abilities.abilities.legendary.survivor
+team remove ancient_abilities.abilities.legendary.enchanter
+team remove ancient_abilities.abilities.legendary.miner
+
+# Unique
+team remove ancient_abilities.abilities.unique.warp_gate
+team remove ancient_abilities.abilities.unique.summoning
+team remove ancient_abilities.abilities.unique.adaptation
+team remove ancient_abilities.abilities.unique.viltrumite
 
 function ancient_abilities:message {target:'@s',message:'{text:"Successfully removed all data.",color: red}'}
