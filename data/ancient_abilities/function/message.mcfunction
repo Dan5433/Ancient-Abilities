@@ -1,1 +1,1 @@
-$tellraw $(target) [{text:"["},{text:"Ancient Abilities"},{text:"] "},$(message)]
+$tellraw $(target) [{text:"[",color:gold},{text:"Ancient Abilities",color:dark_purple,bold:true},{text:"] ",color:gold,bold:false},$(message)]

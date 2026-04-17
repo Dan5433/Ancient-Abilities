@@ -1,3 +1,3 @@
 
 
-function ancient_abilities:message {message:'{text:"Successfully removed all data.",color: red}'}
+function ancient_abilities:message {target:'@s',message:'{text:"Successfully removed all data.",color: red}'}
