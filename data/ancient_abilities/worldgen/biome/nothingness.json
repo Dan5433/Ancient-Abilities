@@ -1,7 +1,4 @@
 {
-  "attributes": {
-    "minecraft:visual/sky_color": "#2e1206"
-  },
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
@@ -20,7 +17,7 @@
     ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
     ["minecraft:amethyst_geode"],
     ["minecraft:red_mushroom_normal", "minecraft:brown_mushroom_normal"],
-    ["minecraft:trees_water", "oak"],
+    ["minecraft:trees_water", "oak", "crimson_fungi"],
     ["dripstone_cluster", "pointed_dripstone", "large_dripstone"]
   ],
   "has_precipitation": false,
