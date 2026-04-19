@@ -4,7 +4,7 @@
     "type": "minecraft:noise",
     "biome_source": {
       "type": "fixed",
-      "biome": "basalt_deltas"
+      "biome": "forest"
     },
     "settings": "ancient_abilities:nothingness"
   }
