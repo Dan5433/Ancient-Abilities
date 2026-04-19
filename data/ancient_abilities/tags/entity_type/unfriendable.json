@@ -1,0 +1,26 @@
+{
+  "values": [
+    "armor_stand",
+    "area_effect_cloud",
+    "#boat",
+    "chest_minecart",
+    "command_block_minecart",
+    "end_crystal",
+    "falling_block",
+    "firework_rocket",
+    "item_frame",
+    "leash_knot",
+    "lightning_bolt",
+    "falling_block",
+    "painting",
+    "shulker_bullet",
+    "snowball",
+    "spectral_arrow",
+    "tnt_minecart",
+    "wither",
+    "ender_dragon",
+    "elder_guardian",
+    "warden",
+    "player"
+  ]
+}
