@@ -1,0 +1,11 @@
+{
+  "type": "ancient_abilities:the_nothingness",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "fixed",
+      "biome": "basalt_deltas"
+    },
+    "settings": "ancient_abilities:nothingness"
+  }
+}
