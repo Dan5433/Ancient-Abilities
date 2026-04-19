@@ -1,8 +1,11 @@
 {
-  "ambient_light": 0,
+  "ambient_light": 0.075,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
-      "loop": "ambient.cave"
+      "additions": {
+        "sound": "ambient.cave",
+        "tick_chance": 0.001
+      }
     },
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/sky_color": "#391818",
