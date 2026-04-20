@@ -364,7 +364,7 @@
 										{
 											"type": "minecraft:block",
 											"result_state": {
-												"Name": "minecraft:dirt"
+												"Name": "mud"
 											}
 										}
 									]
@@ -397,7 +397,7 @@
 												{
 													"type": "minecraft:block",
 													"result_state": {
-														"Name": "minecraft:dirt"
+														"Name": "mud"
 													}
 												}
 											]
