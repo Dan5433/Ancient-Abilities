@@ -1,4 +1,35 @@
 {
+  "attributes": {
+    "visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "ash"
+          },
+          "probability": 0.2
+        },
+        {
+          "particle": {
+            "type": "white_ash"
+          },
+          "probability": 0.075
+        },
+        {
+          "particle": {
+            "type": "soul"
+          },
+          "probability": 0.005
+        },
+        {
+          "particle": {
+            "type": "sculk_soul"
+          },
+          "probability": 0.001
+        }
+      ],
+      "modifier": "override"
+    }
+  },
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
@@ -7,7 +38,7 @@
   ],
   "downfall": 0,
   "effects": {
-    "water_color": "#690000",
+    "water_color": "#500303",
     "grass_color": "#2d0404",
     "foliage_color": "#451f1f",
     "dry_foliage_color": "#3d1f16",
