@@ -45,11 +45,11 @@
     "grass_color_modifier": "none"
   },
   "features": [
-    ["minecraft:lake_lava_surface"],
+    ["ancient_abilities:nothingness/lake_lava"],
     ["minecraft:amethyst_geode"],
     ["minecraft:red_mushroom_normal", "minecraft:brown_mushroom_normal"],
     ["ancient_abilities:nothingness/tree"],
-    ["dripstone_cluster", "pointed_dripstone", "large_dripstone"]
+    ["pointed_dripstone"]
   ],
   "has_precipitation": false,
   "spawn_costs": {},
