@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "ancient_abilities:abilities/use"
+    "function": "ancient_abilities:abilities/right_click"
   }
 }

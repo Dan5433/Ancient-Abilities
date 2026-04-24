@@ -1,0 +1,1 @@
+function ancient_abilities:abilities/warp_gate/warp_other
