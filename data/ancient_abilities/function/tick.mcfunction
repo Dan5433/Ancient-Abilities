@@ -1,3 +1,6 @@
+# Prevent dropping ability items
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ancient_abilities:{ability_item:true}}}}}]
+
 # Prevent ability item pickup
 execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:{ability_item:true}}] run item replace entity @s player.cursor with air
 
