@@ -1,0 +1,42 @@
+{
+  "ambient_light": 0.05,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "additions": {
+        "sound": "ambient.cave",
+        "tick_chance": 0.001
+      }
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/sky_color": "#391818",
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:visual/fog_color": "#1f1616",
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/fast_lava": true,
+    "minecraft:gameplay/sky_light_level": 15,
+    "minecraft:gameplay/water_evaporates": true,
+    "minecraft:visual/cloud_height": 500,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "never",
+      "can_set_spawn": "never",
+      "explodes": false,
+      "error_message": {
+        "text": "YOU ARE NOT WELCOME",
+        "shadow_color": -13035496,
+        "color": "black"
+      }
+    }
+  },
+  "coordinate_scale": 10,
+  "has_ceiling": false,
+  "has_skylight": false,
+  "has_fixed_time": true,
+  "skybox": "none",
+  "height": 384,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 384,
+  "min_y": -64,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": 0,
+  "timelines": "villager_schedule"
+}

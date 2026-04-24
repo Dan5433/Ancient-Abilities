@@ -1,0 +1,59 @@
+{
+  "attributes": {
+    "visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "ash"
+          },
+          "probability": 0.2
+        },
+        {
+          "particle": {
+            "type": "white_ash"
+          },
+          "probability": 0.075
+        },
+        {
+          "particle": {
+            "type": "soul"
+          },
+          "probability": 0.005
+        },
+        {
+          "particle": {
+            "type": "sculk_soul"
+          },
+          "probability": 0.001
+        }
+      ],
+      "modifier": "override"
+    }
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon",
+    "nether_cave"
+  ],
+  "downfall": 0,
+  "effects": {
+    "water_color": "#500303",
+    "grass_color": "#2d0404",
+    "foliage_color": "#451f1f",
+    "dry_foliage_color": "#3d1f16",
+    "grass_color_modifier": "none"
+  },
+  "features": [
+    ["ancient_abilities:nothingness/lake_lava"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:red_mushroom_normal", "minecraft:brown_mushroom_normal"],
+    ["ancient_abilities:nothingness/tree"],
+    ["pointed_dripstone"]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {},
+  "temperature": 1,
+  "creature_spawn_probability": 0
+}
