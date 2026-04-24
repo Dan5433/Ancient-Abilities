@@ -1,5 +1,10 @@
+# Prevent ability item pickup
+execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:{ability_item:true}}] run item replace entity @s player.cursor with air
+
 # Abilities
-execute as @a[team=ancient_abilities.abilities.unique.warp_gate] unless items entity @s inventory.* clock[custom_data~{ancient_abilities:{ability_item:true}}] unless items entity @s hotbar.* clock[custom_data~{ancient_abilities:{ability_item:true}}] unless items entity @s player.crafting.* clock[custom_data~{ancient_abilities:{ability_item:true}}] run function ancient_abilities:abilities/warp_gate/give_item
+
+# Warp Gate
+execute as @a[team=ancient_abilities.abilities.unique.warp_gate] unless items entity @s inventory.* *[custom_data~{ancient_abilities:{ability_item:true}}] unless items entity @s hotbar.* *[custom_data~{ancient_abilities:{ability_item:true}}] unless items entity @s player.crafting.* *[custom_data~{ancient_abilities:{ability_item:true}}] run function ancient_abilities:abilities/warp_gate/give_item
 
 # Passives
 
