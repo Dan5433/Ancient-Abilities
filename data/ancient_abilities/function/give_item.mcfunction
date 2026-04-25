@@ -1,0 +1,1 @@
+execute as @s[team=ancient_abilities.abilities.unique.warp_gate] run function ancient_abilities:abilities/warp_gate/give_item

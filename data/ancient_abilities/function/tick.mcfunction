@@ -7,9 +7,10 @@ execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:
 
 
 # Abilities
+# Ensure players always have their ability item
+execute as @a[predicate=!ancient_abilities:has_ability_item] run function ancient_abilities:give_item
 
 # Warp Gate
-execute as @a[team=ancient_abilities.abilities.unique.warp_gate] unless items entity @s inventory.* *[custom_data~{ancient_abilities:{ability_item:true}}] unless items entity @s weapon.* *[custom_data~{ancient_abilities:{ability_item:true}}] unless items entity @s hotbar.* *[custom_data~{ancient_abilities:{ability_item:true}}] unless items entity @s player.crafting.* *[custom_data~{ancient_abilities:{ability_item:true}}] run function ancient_abilities:abilities/warp_gate/give_item
 # Teleport other entities to safe location
 execute as @e[team=ancient_abilities.warped] at @s run function ancient_abilities:abilities/warp_gate/warp/tp_to_safe_location
 
