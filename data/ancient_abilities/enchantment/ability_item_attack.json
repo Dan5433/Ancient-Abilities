@@ -20,7 +20,7 @@
         "affected": "victim",
         "effect": {
           "type": "run_function",
-          "function": "ancient_abilities:abilities/left_click"
+          "function": "ancient_abilities:abilities/attack"
         }
       }
     ],

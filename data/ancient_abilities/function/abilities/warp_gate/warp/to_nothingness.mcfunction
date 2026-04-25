@@ -1,8 +1,6 @@
 tp @s ~ ~ ~
 spreadplayers ~ ~ 0 100 false @s
 
-execute as @s[type=!player] positioned over world_surface run tp @s ~ ~ ~
-
 execute positioned over world_surface if block ~ ~-1 ~ #ancient_abilities:warp_unsafe positioned ~ ~-1 ~ run function ancient_abilities:abilities/warp_gate/warp/create_platform
 
 playsound block.end_portal.spawn player @s ~ ~ ~ 1 0.25
