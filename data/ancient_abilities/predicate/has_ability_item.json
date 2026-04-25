@@ -53,21 +53,12 @@
       }
     },
     {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
-        "slots": {
-          "weapon.*": {
-            "predicates": {
-              "minecraft:custom_data": {
-                "ancient_abilities": {
-                  "ability_item": true
-                }
-              }
-            }
-          }
-        }
-      }
+      "condition": "reference",
+      "name": "ancient_abilities:holding_ability_item_mainhand"
+    },
+    {
+      "condition": "reference",
+      "name": "ancient_abilities:holding_ability_item_offhand"
     }
   ]
 }

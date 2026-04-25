@@ -1,0 +1,2 @@
+item replace entity @s[predicate=ancient_abilities:holding_ability_item_mainhand] weapon.mainhand with air
+item replace entity @s[predicate=ancient_abilities:holding_ability_item_offhand] weapon.offhand with air
