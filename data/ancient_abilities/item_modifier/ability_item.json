@@ -1,0 +1,19 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:max_stack_size": 1
+    }
+  },
+  {
+    "function": "minecraft:toggle_tooltips",
+    "toggles": {
+      "minecraft:enchantments": false
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": { "ancient_abilities": { "ability_item": true } }
+  }
+]
