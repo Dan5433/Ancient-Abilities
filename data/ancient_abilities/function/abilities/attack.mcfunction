@@ -1,1 +1,1 @@
-function ancient_abilities:abilities/warp_gate/warp_other
+function ancient_abilities:abilities/warp_gate/warp_other_startup

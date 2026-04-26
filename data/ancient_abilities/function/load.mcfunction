@@ -33,5 +33,11 @@ team add ancient_abilities.abilities.unique.viltrumite
 # Misc/extra
 team add ancient_abilities.warped
 
+# Scores
+scoreboard objectives add ancient_abilities.given_ability_startup_timer dummy
+
+# Schedules
+function ancient_abilities:abilities/tick_timers
+
 say [Ancient Abilities] Succesfully loaded!
-function ancient_abilities:message {target:'@a',message:'{text: "Succesfully loaded! ",color: green},"\\n",{text: "Click here to uninstall.",color: red,bold:true,underlined:true,click_event: {action: "run_command",command: "function ancient_abilities:uninstall"},hover_event: {action:"show_text",value:{text:"Uninstall",color:red}}}'}
+function ancient_abilities:message {target:'@a',message:[{text: "Succesfully loaded! ",color: green}," ",{text: "Click here to uninstall.",color: red,bold:true,underlined:true,click_event: {action: "run_command",command: "function ancient_abilities:uninstall"},hover_event: {action:"show_text",value:{text:"Uninstall",color:red}}}]}
