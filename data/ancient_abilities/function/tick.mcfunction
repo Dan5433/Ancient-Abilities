@@ -7,8 +7,6 @@ execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:
 
 
 # Abilities
-# Ensure players always have their ability item
-execute as @a[predicate=!ancient_abilities:has_ability_item] run function ancient_abilities:give_item
 
 # Warp Gate
 # Teleport other entities to safe location

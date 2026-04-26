@@ -1,0 +1,12 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "team": "ancient_abilities.abilities.unique.warp_gate"
+      }
+    }
+  ]
+}
