@@ -1,3 +1,4 @@
+# General
 # Prevent dropping ability items
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ancient_abilities:{ability_item:true}}}}}]
 
