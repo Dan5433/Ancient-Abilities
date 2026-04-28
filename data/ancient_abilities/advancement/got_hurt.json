@@ -5,8 +5,17 @@
       "conditions": {
         "player": [
           {
-            "condition": "reference",
-            "name": "ancient_abilities:has_ability_timer"
+            "condition":"any_of",
+            "terms": [
+              {
+                "condition": "reference",
+                "name": "ancient_abilities:has_given_ability_timer"
+              },
+              {
+                "condition": "reference",
+                "name": "ancient_abilities:has_ability_timer"
+              }
+            ]
           }
         ]
       }
