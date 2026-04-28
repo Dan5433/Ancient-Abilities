@@ -44,7 +44,8 @@ scoreboard objectives add ancient_abilities.constants dummy
 scoreboard objectives add ancient_abilities.temp dummy
 
 # Constants
-scoreboard players set $seconds_in_tick ancient_abilities.constants 20
+scoreboard players set $ticks_in_second ancient_abilities.constants 20
+scoreboard players set $seconds_in_minute ancient_abilities.constants 60
 
 # Schedules
 function ancient_abilities:abilities/tick_timers
