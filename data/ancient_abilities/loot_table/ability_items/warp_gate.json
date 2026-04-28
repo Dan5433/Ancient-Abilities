@@ -17,7 +17,7 @@
         "minecraft:rarity": "epic",
         "minecraft:item_model": "ender_eye",
         "minecraft:consumable": {
-          "consume_seconds": 8,
+          "consume_seconds": 2147483647,
           "sound": "entity.guardian.ambient",
           "has_consume_particles": false,
           "animation": "trident",

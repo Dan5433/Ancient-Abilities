@@ -1,7 +1,7 @@
 {
   "criteria": {
     "use_item": {
-      "trigger": "consume_item",
+      "trigger": "using_item",
       "conditions": {
         "item": {
           "components": {
@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "ancient_abilities:abilities/right_click"
+    "function": "ancient_abilities:abilities/tick_right_click"
   }
 }

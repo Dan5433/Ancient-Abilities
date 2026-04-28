@@ -1,1 +1,0 @@
-tag @s remove ancient_abilities.given_ability.warp_gate

@@ -1,0 +1,13 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "ancient_abilities:holding_ability_item_mainhand"
+    },
+    {
+      "condition": "reference",
+      "name": "ancient_abilities:holding_ability_item_offhand"
+    }
+  ]
+}

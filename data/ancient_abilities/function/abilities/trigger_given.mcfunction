@@ -1,1 +1,1 @@
-execute as @s[tag=ancient_abilities.given_ability.warp_gate] run function ancient_abilities:abilities/warp_gate/warp_other
+execute as @s[tag=ancient_abilities.given_ability.warp_gate] run return run function ancient_abilities:abilities/warp_gate/warp_other

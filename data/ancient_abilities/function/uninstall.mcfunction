@@ -35,5 +35,6 @@ team remove ancient_abilities.warped
 
 # Scores
 scoreboard objectives remove ancient_abilities.given_ability_startup_timer
+scoreboard objectives remove ancient_abilities.ability_startup_timer
 
 function ancient_abilities:message {target:'@s',message:[{text:"Successfully removed all data.",color: red}]}

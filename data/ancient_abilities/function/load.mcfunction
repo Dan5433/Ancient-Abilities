@@ -35,6 +35,7 @@ team add ancient_abilities.warped
 
 # Scores
 scoreboard objectives add ancient_abilities.given_ability_startup_timer dummy
+scoreboard objectives add ancient_abilities.ability_startup_timer dummy
 
 # Schedules
 function ancient_abilities:abilities/tick_timers
