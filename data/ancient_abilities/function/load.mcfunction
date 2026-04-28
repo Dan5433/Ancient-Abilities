@@ -37,6 +37,12 @@ team add ancient_abilities.warped
 scoreboard objectives add ancient_abilities.given_ability_startup_timer dummy
 scoreboard objectives add ancient_abilities.ability_startup_timer dummy
 
+scoreboard objectives add ancient_abilities.constants dummy
+scoreboard objectives add ancient_abilities.temp dummy
+
+# Constants
+scoreboard players set $seconds_in_tick ancient_abilities.constants 20
+
 # Schedules
 function ancient_abilities:abilities/tick_timers
 
