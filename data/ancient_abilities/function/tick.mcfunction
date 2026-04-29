@@ -9,7 +9,7 @@ execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:
 
 # Oaths
 # Check for signed oath book
-execute as @a[predicate=ancient_abilities:holding_oaths/any] run function ancient_abilities:oaths/check_for_oath
+execute as @a[predicate=ancient_abilities:holding_oaths/any] at @s run function ancient_abilities:oaths/try_assign
 
 
 # Abilities
