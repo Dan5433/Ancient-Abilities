@@ -1,0 +1,23 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": "minecraft:written_book",
+				"predicates": {
+					"minecraft:written_book_content": {
+						"pages": {
+							"contains": [
+								"I swear to strike fear."
+							],
+							"size": 1
+						},
+						"title": "Oath",
+						"generation": 0
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+team join ancient_abilities.oaths.intimidation @s
