@@ -1,3 +1,4 @@
+execute if score @s ancient_abilities.null_posion matches 1.. run return run title @s actionbar [{text:"Nullified: ",color:red},{score:{name:'@s',objective:ancient_abilities.null_posion}},"s"]
 execute if score @s ancient_abilities.ability_right_click_cooldown matches 1.. run return run function ancient_abilities:display_cooldown {score:ancient_abilities.ability_right_click_cooldown}
 
 execute as @s[team=ancient_abilities.abilities.unique.warp_gate] if score @s ancient_abilities.ability_startup_timer matches ..0 run scoreboard players set @s ancient_abilities.ability_startup_timer 160

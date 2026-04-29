@@ -11,6 +11,9 @@ execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:
 # Check for signed oath book
 execute as @a[predicate=ancient_abilities:holding_oaths/any] at @s run function ancient_abilities:oaths/try_assign
 
+# Null
+# Posion particles
+execute at @a[scores={ancient_abilities.null_posion=1..}] run particle entity_effect{color:-13550049} ~ ~1 ~ 0.15 0.075 0.15 0 1
 
 # Abilities
 # Cancel when not using item

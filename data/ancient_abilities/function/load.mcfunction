@@ -43,12 +43,15 @@ scoreboard objectives add ancient_abilities.ability_right_click_cooldown dummy
 scoreboard objectives add ancient_abilities.constants dummy
 scoreboard objectives add ancient_abilities.temp dummy
 
+# Ability Specific Scores
+scoreboard objectives add ancient_abilities.null_posion dummy
+
 # Constants
 scoreboard players set $ticks_in_second ancient_abilities.constants 20
 scoreboard players set $seconds_in_minute ancient_abilities.constants 60
 
 # Schedules
-function ancient_abilities:abilities/tick_timers
+function ancient_abilities:tick_timers
 
 say [Ancient Abilities] Succesfully loaded!
 function ancient_abilities:message {target:'@a',message:[{text: "Succesfully loaded! ",color: green}," ",{text: "Click here to uninstall.",color: red,bold:true,underlined:true,click_event: {action: "run_command",command: "function ancient_abilities:uninstall"},hover_event: {action:"show_text",value:{text:"Uninstall",color:red}}}]}

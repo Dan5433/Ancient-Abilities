@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "hurt_by_hunter": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "team": "ancient_abilities.oaths.null"
+          },
+          "type": {
+            "is_direct": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ancient_abilities:oaths/nullification/apply_poison"
+  }
+}
