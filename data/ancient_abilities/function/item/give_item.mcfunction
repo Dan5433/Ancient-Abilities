@@ -1,0 +1,1 @@
+execute as @s[team=ancient_abilities.abilities.unique.warp_gate] run loot give @s loot ancient_abilities:ability_items/warp_gate

@@ -1,0 +1,9 @@
+{
+  "condition": "entity_scores",
+  "entity": "this",
+  "scores": {
+    "ancient_abilities.given_ability_startup_timer": {
+      "min": 1
+    }
+  }
+}

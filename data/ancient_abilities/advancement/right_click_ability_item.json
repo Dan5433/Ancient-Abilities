@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": { "ancient_abilities": { "ability_item": true } }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ancient_abilities:abilities/tick_right_click"
+  }
+}
