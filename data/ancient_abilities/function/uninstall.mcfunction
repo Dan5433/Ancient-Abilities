@@ -43,4 +43,8 @@ scoreboard objectives remove ancient_abilities.ability_right_click_cooldown
 scoreboard objectives remove ancient_abilities.constants
 scoreboard objectives remove ancient_abilities.temp
 
+# Ability Specific Scores
+scoreboard objectives remove ancient_abilities.null_posion
+
+
 function ancient_abilities:message {target:'@s',message:[{text:"Successfully removed all data.",color: red}]}

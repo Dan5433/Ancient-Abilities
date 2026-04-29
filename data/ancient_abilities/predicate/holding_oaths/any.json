@@ -1,0 +1,21 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "ancient_abilities:holding_oaths/hunter"
+    },
+    {
+      "condition": "reference",
+      "name": "ancient_abilities:holding_oaths/intimidation"
+    },
+    {
+      "condition": "reference",
+      "name": "ancient_abilities:holding_oaths/nullification"
+    },
+    {
+      "condition": "reference",
+      "name": "ancient_abilities:holding_oaths/restriction"
+    }
+  ]
+}
