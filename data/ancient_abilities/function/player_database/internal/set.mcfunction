@@ -1,0 +1,1 @@
+$data modify storage ancient_abilities:player_database players[{UUID:[I;$(UUID0),$(UUID1),$(UUID2),$(UUID3)]}] set from storage ancient_abilities:player_database in
