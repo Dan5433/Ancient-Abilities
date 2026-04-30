@@ -15,10 +15,10 @@
       "function": "minecraft:set_components",
       "components": {
         "minecraft:rarity": "uncommon",
-        "minecraft:item_model": "end_crystal",
+        "minecraft:item_model": "firework_star",
         "minecraft:consumable": {
-          "consume_seconds": 1.05,
-          "sound": "block.beacon.power_select",
+          "consume_seconds": 1.55,
+          "sound": "block.beacon.ambient",
           "has_consume_particles": false,
           "animation": "spyglass"
         },
@@ -49,7 +49,7 @@
           "color": "gold"
         },
         {
-          "text": "Reveal waypoints of players 64 blocks around you",
+          "text": "Reveal waypoints of players 64 blocks around you for 9 seconds",
           "italic": false,
           "color": "white"
         }

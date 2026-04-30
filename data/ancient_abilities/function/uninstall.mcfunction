@@ -36,6 +36,7 @@ team remove ancient_abilities.warped
 # Scores
 scoreboard objectives remove ancient_abilities.given_ability_startup_timer
 scoreboard objectives remove ancient_abilities.ability_startup_timer
+scoreboard objectives remove ancient_abilities.ability_active_timer
 
 scoreboard objectives remove ancient_abilities.ability_left_click_cooldown
 scoreboard objectives remove ancient_abilities.ability_right_click_cooldown

@@ -1,0 +1,2 @@
+execute as @s[team=ancient_abilities.abilities.unique.warp_gate] run return run scoreboard players set @s ancient_abilities.ability_startup_timer 160
+execute as @s[team=ancient_abilities.oaths.hunter] run return run scoreboard players set @s ancient_abilities.ability_startup_timer 30

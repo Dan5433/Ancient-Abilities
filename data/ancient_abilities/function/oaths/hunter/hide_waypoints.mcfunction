@@ -1,0 +1,1 @@
+attribute @s waypoint_receive_range modifier remove ancient_abilities:hunter_waypoints
