@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:rarity": "uncommon",
+        "minecraft:item_model": "end_crystal",
+        "minecraft:consumable": {
+          "consume_seconds": 1.05,
+          "sound": "block.beacon.power_select",
+          "has_consume_particles": false,
+          "animation": "spyglass"
+        },
+        "minecraft:enchantments": {
+          "ancient_abilities:ability_item_attack": 1
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_name",
+      "name": [
+        { "text": "H", "italic": false, "color": "#db1a1a" },
+        { "text": "u", "italic": false, "color": "#c61818" },
+        { "text": "n", "italic": false, "color": "#b11616" },
+        { "text": "t", "italic": false, "color": "#9b1313" },
+        { "text": "e", "italic": false, "color": "#861111" },
+        { "text": "r", "italic": false, "color": "#710f0f" }
+      ],
+      "target": "item_name"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "Right-Click",
+          "bold": true,
+          "italic": false,
+          "color": "gold"
+        },
+        {
+          "text": "Reveal waypoints of players 64 blocks around you",
+          "italic": false,
+          "color": "white"
+        }
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "reference",
+      "name": "ancient_abilities:ability_item"
+    }
+  ]
+}
