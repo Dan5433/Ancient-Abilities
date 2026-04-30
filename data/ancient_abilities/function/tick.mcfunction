@@ -17,7 +17,11 @@ execute at @a[scores={ancient_abilities.null_posion=1..}] run particle entity_ef
 
 # Hunter
 # Remove waypoints by default
-execute as @a run attribute @s waypoint_receive_range base set 0
+execute as @a[tag=!ancient_abilities.joined] run function ancient_abilities:remove_waypoints_by_default
+
+# Intimidation
+execute as @a[team=ancient_abilities.oaths.intimidation] at @s run function ancient_abilities:oaths/intimidation/passive
+
 
 # Abilities
 # Cancel when not using item

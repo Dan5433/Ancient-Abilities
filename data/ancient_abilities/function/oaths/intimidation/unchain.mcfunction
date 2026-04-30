@@ -1,0 +1,3 @@
+attribute @s jump_strength modifier remove ancient_abilities:intimidation_chained_down
+
+tag @s remove ancient_abilities.intimidation_chained_down
