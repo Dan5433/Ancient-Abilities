@@ -15,6 +15,10 @@ execute as @a[predicate=ancient_abilities:holding_oaths/any] at @s run function 
 # Posion particles
 execute at @a[scores={ancient_abilities.null_posion=1..}] run particle entity_effect{color:-13550049} ~ ~1 ~ 0.15 0.075 0.15 0 1
 
+# Hunter
+# Remove waypoints by default
+execute as @a run attribute @s waypoint_receive_range base set 0
+
 # Abilities
 # Cancel when not using item
 execute as @a[advancements={ancient_abilities:right_click_ability_item=false},predicate=ancient_abilities:has_ability_timer] run function ancient_abilities:abilities/cancel

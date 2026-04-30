@@ -5,11 +5,16 @@
       "conditions": {
         "player": [
           {
-            "condition":"any_of",
+            "condition": "any_of",
             "terms": [
               {
-                "condition": "reference",
-                "name": "ancient_abilities:has_given_ability_timer"
+                "condition": "entity_scores",
+                "entity": "this",
+                "scores": {
+                  "ancient_abilities.given_ability_startup_timer": {
+                    "min": 1
+                  }
+                }
               },
               {
                 "condition": "reference",

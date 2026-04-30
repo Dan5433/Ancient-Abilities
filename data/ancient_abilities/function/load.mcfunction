@@ -36,6 +36,7 @@ team add ancient_abilities.warped
 # Scores
 scoreboard objectives add ancient_abilities.given_ability_startup_timer dummy
 scoreboard objectives add ancient_abilities.ability_startup_timer dummy
+scoreboard objectives add ancient_abilities.ability_active_timer dummy
 
 scoreboard objectives add ancient_abilities.ability_left_click_cooldown dummy
 scoreboard objectives add ancient_abilities.ability_right_click_cooldown dummy
