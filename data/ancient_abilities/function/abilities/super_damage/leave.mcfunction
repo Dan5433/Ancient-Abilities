@@ -1,0 +1,1 @@
+attribute @s attack_damage modifier remove ancient_abilities:super_damage
