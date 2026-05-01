@@ -1,0 +1,1 @@
+$data modify storage ancient_abilities:temp data set value "revealed[{UUID:$(revealUUID)}]"

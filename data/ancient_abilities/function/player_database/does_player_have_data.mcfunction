@@ -1,0 +1,1 @@
+$execute if data storage ancient_abilities:player_database players[{UUID:$(UUID)}].$(data) run scoreboard players set $player_has_data ancient_abilities.temp 1

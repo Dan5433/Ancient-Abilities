@@ -1,0 +1,1 @@
+$data modify storage ancient_abilities:player_database in.revealed append value {UUID:$(revealUUID)}
