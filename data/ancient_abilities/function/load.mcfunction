@@ -9,6 +9,7 @@ team add ancient_abilities.oaths.hunter
 # Rare
 team add ancient_abilities.abilities.rare.radius
 team add ancient_abilities.abilities.rare.blind
+team add ancient_abilities.abilities.rare.physical
 
 # Epic
 team add ancient_abilities.abilities.epic.durability
