@@ -32,9 +32,10 @@ execute as @a[advancements={ancient_abilities:right_click_ability_item=true}] ru
 # Teleport other entities to safe location
 execute as @e[team=ancient_abilities.warped] at @s run function ancient_abilities:abilities/warp_gate/warp/tp_to_safe_location
 
-
-
-# Passives
-
 # Summoning
+# Befriend mobs
 execute as @a[team=ancient_abilities.abilities.unique.summoning] at @s run team join ancient_abilities.abilities.unique.summoning @e[distance=..10,type=!#ancient_abilities:unfriendable]
+
+# Heightened Sense
+# Blind
+execute as @a[team=ancient_abilities.abilities.rare.blind] at @s run function ancient_abilities:abilities/heightened_sense/blind/passive
