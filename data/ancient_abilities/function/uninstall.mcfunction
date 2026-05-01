@@ -9,10 +9,8 @@ team remove ancient_abilities.oaths.hunter
 # Rare
 team remove ancient_abilities.abilities.rare.radius
 team remove ancient_abilities.abilities.rare.blind
-team remove ancient_abilities.abilities.rare.physical
 
 # Epic
-team remove ancient_abilities.abilities.epic.speed
 team remove ancient_abilities.abilities.epic.durability
 team remove ancient_abilities.abilities.epic.damage
 team remove ancient_abilities.abilities.epic.healer
