@@ -1,0 +1,1 @@
+attribute @s movement_speed modifier remove ancient_abilities:super_speed
