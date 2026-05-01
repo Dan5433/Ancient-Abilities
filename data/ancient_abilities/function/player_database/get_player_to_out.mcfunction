@@ -1,0 +1,5 @@
+function ancient_abilities:player_database/internal/load_uuid
+
+function ancient_abilities:player_database/internal/get with storage ancient_abilities:player_database args
+
+function ancient_abilities:player_database/internal/clear_temp

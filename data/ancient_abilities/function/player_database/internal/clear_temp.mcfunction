@@ -1,0 +1,2 @@
+data remove storage ancient_abilities:player_database args
+data remove storage ancient_abilities:player_database temp

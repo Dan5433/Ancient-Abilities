@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "killed_by_restriction": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "player",
+          "team": "ancient_abilities.oaths.restrict"
+        },
+        "killing_blow": {
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ancient_abilities:oaths/restriction/restrict_killed_player"
+  }
+}
