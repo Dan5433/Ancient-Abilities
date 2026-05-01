@@ -41,4 +41,7 @@ execute as @a[team=ancient_abilities.abilities.unique.summoning] at @s run team 
 execute as @a[team=ancient_abilities.abilities.rare.blind] at @s run function ancient_abilities:abilities/heightened_sense/blind/passive
 
 # Physical
+execute as @a[team=ancient_abilities.abilities.rare.physical] run function ancient_abilities:abilities/heightened_sense/physical/passive
+
+# Radius
 execute as @a[team=ancient_abilities.abilities.rare.radius] at @s run function ancient_abilities:abilities/heightened_sense/radius/name_players_in_radius
