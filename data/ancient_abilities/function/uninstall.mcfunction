@@ -13,7 +13,6 @@ team remove ancient_abilities.abilities.rare.physical
 
 # Epic
 team remove ancient_abilities.abilities.epic.durability
-team remove ancient_abilities.abilities.epic.damage
 team remove ancient_abilities.abilities.epic.healer
 team remove ancient_abilities.abilities.epic.delay
 

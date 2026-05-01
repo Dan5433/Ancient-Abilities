@@ -45,3 +45,6 @@ execute as @a[team=ancient_abilities.abilities.rare.physical] run function ancie
 
 # Radius
 execute as @a[team=ancient_abilities.abilities.rare.radius] at @s run function ancient_abilities:abilities/heightened_sense/radius/name_players_in_radius
+
+# Super Durability
+execute as @a[team=ancient_abilities.abilities.epic.durability] run function ancient_abilities:abilities/super_durability/passive

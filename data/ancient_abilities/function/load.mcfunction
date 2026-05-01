@@ -13,7 +13,6 @@ team add ancient_abilities.abilities.rare.physical
 
 # Epic
 team add ancient_abilities.abilities.epic.durability
-team add ancient_abilities.abilities.epic.damage
 team add ancient_abilities.abilities.epic.healer
 team add ancient_abilities.abilities.epic.delay
 
