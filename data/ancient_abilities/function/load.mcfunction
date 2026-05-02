@@ -12,6 +12,8 @@ team add ancient_abilities.abilities.rare.blind
 team add ancient_abilities.abilities.rare.physical
 
 # Epic
+team add ancient_abilities.abilities.epic.damage
+team add ancient_abilities.abilities.epic.speed
 team add ancient_abilities.abilities.epic.durability
 team add ancient_abilities.abilities.epic.healer
 team add ancient_abilities.abilities.epic.delay
@@ -30,6 +32,7 @@ team add ancient_abilities.abilities.unique.viltrumite
 
 # Misc/extra
 team add ancient_abilities.warped
+scoreboard objectives add ancient_abilities.deaths deathCount
 
 # Scores
 scoreboard objectives add ancient_abilities.given_ability_startup_timer dummy

@@ -12,6 +12,8 @@ team remove ancient_abilities.abilities.rare.blind
 team remove ancient_abilities.abilities.rare.physical
 
 # Epic
+team remove ancient_abilities.abilities.epic.damage
+team remove ancient_abilities.abilities.epic.speed
 team remove ancient_abilities.abilities.epic.durability
 team remove ancient_abilities.abilities.epic.healer
 team remove ancient_abilities.abilities.epic.delay
@@ -30,6 +32,7 @@ team remove ancient_abilities.abilities.unique.viltrumite
 
 # Misc/extra
 team remove ancient_abilities.warped
+scoreboard objectives remove ancient_abilities.deaths
 
 # Scores
 scoreboard objectives remove ancient_abilities.given_ability_startup_timer
