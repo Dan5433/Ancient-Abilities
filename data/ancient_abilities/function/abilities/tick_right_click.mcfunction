@@ -16,3 +16,4 @@ execute unless score @s ancient_abilities.ability_startup_timer matches ..0 run 
 
 execute as @s[team=ancient_abilities.abilities.unique.warp_gate] at @s run return run function ancient_abilities:abilities/warp_gate/warp
 execute as @s[team=ancient_abilities.oaths.hunter] at @s run return run function ancient_abilities:oaths/hunter/reveal_waypoints
+execute as @s[team=ancient_abilities.abilities.epic.healer] at @s run return run function ancient_abilities:abilities/healer/self_heal

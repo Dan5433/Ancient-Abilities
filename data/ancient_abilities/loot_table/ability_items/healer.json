@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:rarity": "rare",
+        "minecraft:item_model": "lingering_potion",
+        "potion_contents": {
+          "custom_color": 13042750
+        },
+        "minecraft:consumable": {
+          "consume_seconds": 3,
+          "sound": "item.brush.brushing.generic",
+          "has_consume_particles": false,
+          "animation":"crossbow"
+        },
+        "minecraft:enchantments": {
+          "ancient_abilities:ability_item_attack": 1
+        },
+        "minecraft:use_effects": {
+          "speed_multiplier": 0
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_name",
+      "name": [
+        { "text": "H", "italic": false, "color": "#e00b67" },
+        { "text": "e", "italic": false, "color": "#e00c55" },
+        { "text": "a", "italic": false, "color": "#e00c43" },
+        { "text": "l", "italic": false, "color": "#e10d32" },
+        { "text": "e", "italic": false, "color": "#e10d20" },
+        { "text": "r", "italic": false, "color": "#e10e0e" }
+      ],
+      "target": "item_name"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "Left-Click",
+          "bold": true,
+          "italic": false,
+          "color": "gold"
+        },
+        {
+          "text": "Heal the hit entity",
+          "italic": false,
+          "color": "white"
+        },
+        "",
+        {
+          "text": "Right-Click",
+          "bold": true,
+          "italic": false,
+          "color": "gold"
+        },
+        {
+          "text": "Heal yourself",
+          "italic": false,
+          "color": "white"
+        }
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "reference",
+      "name": "ancient_abilities:ability_item"
+    }
+  ]
+}

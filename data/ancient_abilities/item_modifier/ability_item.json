@@ -12,7 +12,8 @@
   {
     "function": "minecraft:toggle_tooltips",
     "toggles": {
-      "minecraft:enchantments": false
+      "minecraft:enchantments": false,
+      "potion_contents": false
     }
   },
   {
