@@ -20,7 +20,7 @@ team remove ancient_abilities.abilities.epic.delay
 
 # Legendary
 team remove ancient_abilities.abilities.legendary.invis
-team remove ancient_abilities.abilities.legendary.survivor
+team remove ancient_abilities.abilities.legendary.multi
 team remove ancient_abilities.abilities.legendary.enchanter
 team remove ancient_abilities.abilities.legendary.miner
 
@@ -50,6 +50,8 @@ scoreboard objectives remove ancient_abilities.null_posion
 scoreboard objectives remove ancient_abilities.damage_dealt
 scoreboard objectives remove ancient_abilities.delay_damage
 scoreboard objectives remove ancient_abilities.enchanter.enchant_level
+scoreboard objectives remove ancient_abilities.health
+scoreboard objectives remove ancient_abilities.multi.effect_cooldown
 
 
 function ancient_abilities:message {target:'@s',message:[{text:"Successfully removed all data.",color: red}]}
