@@ -47,6 +47,9 @@ scoreboard objectives remove ancient_abilities.temp
 
 # Ability Specific Scores
 scoreboard objectives remove ancient_abilities.null_posion
+scoreboard objectives remove ancient_abilities.damage_dealt
+scoreboard objectives remove ancient_abilities.delay_damage
+scoreboard objectives remove ancient_abilities.enchanter.enchant_level
 
 
 function ancient_abilities:message {target:'@s',message:[{text:"Successfully removed all data.",color: red}]}

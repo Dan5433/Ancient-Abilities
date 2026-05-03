@@ -6,3 +6,4 @@ execute if score @s ancient_abilities.given_ability_startup_timer matches 1.. ru
 
 scoreboard players reset @s ancient_abilities.ability_startup_timer
 scoreboard players reset @s ancient_abilities.delay_damage
+scoreboard players reset @s ancient_abilities.enchanter.enchant_level
