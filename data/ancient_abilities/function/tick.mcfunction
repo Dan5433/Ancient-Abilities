@@ -5,8 +5,6 @@ kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ancient_abilit
 # Prevent ability item pickup
 execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:{ability_item:true}}] run item replace entity @s player.cursor with air
 
-# Tick startup on specific abilities
-execute as @a[predicate=ancient_abilities:ability_auto_ticks_startup,scores={ancient_abilities.ability_startup_timer=1..}] run function ancient_abilities:abilities/tick_right_click
 
 
 # Oaths
@@ -57,3 +55,11 @@ execute as @e[type=player,team=ancient_abilities.abilities.epic.damage,scores={a
 
 # Super Durability
 execute as @a[team=ancient_abilities.abilities.epic.durability] run function ancient_abilities:abilities/super_durability/passive
+
+# Delay
+execute as @a[team=ancient_abilities.abilities.epic.delay,scores={ancient_abilities.ability_startup_timer=..0}] at @s run execute as @e[distance=..25] run function ancient_abilities:abilities/delay/apply_damage with storage ancient_abilities:temp
+execute as @a[team=ancient_abilities.abilities.epic.delay,scores={ancient_abilities.ability_startup_timer=..0}] run function ancient_abilities:abilities/delay/reset
+
+
+# Tick startup on specific abilities
+execute as @a[predicate=ancient_abilities:ability_auto_ticks_startup,scores={ancient_abilities.ability_startup_timer=0..}] run function ancient_abilities:abilities/tick_right_click

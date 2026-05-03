@@ -3,7 +3,7 @@
   "entity": "this",
   "scores": {
     "ancient_abilities.ability_startup_timer": {
-      "min": 1
+      "min": 0
     }
   }
 }
