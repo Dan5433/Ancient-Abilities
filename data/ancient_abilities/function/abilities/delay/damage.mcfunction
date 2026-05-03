@@ -1,2 +1,1 @@
-$damage @s $(damage) player_attack
-title @s actionbar {text:"Damaged",color:light_purple}
+$damage @s $(damage) player_attack by @p[nbt={UUID:$(UUID)}]
