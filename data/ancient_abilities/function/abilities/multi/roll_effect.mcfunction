@@ -7,7 +7,7 @@ execute if score $multi_effect ancient_abilities.temp matches 2 run return run e
 execute if score $multi_effect ancient_abilities.temp matches 3 run return run effect give @s dolphins_grace 3600 0
 execute if score $multi_effect ancient_abilities.temp matches 4 run return run effect give @s fire_resistance 3600 0
 execute if score $multi_effect ancient_abilities.temp matches 5 run return run effect give @s hero_of_the_village 3600 4
-execute if score $multi_effect ancient_abilities.temp matches 6 run return run effect give @s luck 3600 0
+execute if score $multi_effect ancient_abilities.temp matches 6 run return run effect give @s luck 3600 1
 execute if score $multi_effect ancient_abilities.temp matches 7 run return run effect give @s regeneration 3600 0
 execute if score $multi_effect ancient_abilities.temp matches 8 run return run effect give @s saturation 3600 0
 execute if score $multi_effect ancient_abilities.temp matches 9 run return run effect give @s speed 3600 0
