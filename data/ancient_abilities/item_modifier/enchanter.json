@@ -1,0 +1,8 @@
+{
+  "function": "minecraft:enchant_with_levels",
+  "levels": {
+    "type": "minecraft:score",
+    "target": "this",
+    "score": "ancient_abilities.enchanter.enchant_level"
+  }
+}
