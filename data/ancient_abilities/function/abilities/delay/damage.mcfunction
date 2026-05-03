@@ -1,0 +1,1 @@
+$damage @s $(damage) player_attack by @p[nbt={UUID:$(UUID)}]

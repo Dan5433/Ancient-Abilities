@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "delay_hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "ancient_abilities.abilities.epic.delay"
+                }
+              }
+            ]
+          }
+        ],
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_direct": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ancient_abilities:abilities/delay/dealt_damage"
+  }
+}
