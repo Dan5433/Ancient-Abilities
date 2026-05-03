@@ -54,6 +54,8 @@ scoreboard objectives add ancient_abilities.enchanter.enchant_level dummy
 # Constants
 scoreboard players set $ticks_in_second ancient_abilities.constants 20
 scoreboard players set $seconds_in_minute ancient_abilities.constants 60
+scoreboard players set $neg ancient_abilities.constants -1
+scoreboard players set $3 ancient_abilities.constants 3
 
 # Schedules
 function ancient_abilities:tick_timers
