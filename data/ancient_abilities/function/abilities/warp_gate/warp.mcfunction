@@ -1,5 +1,3 @@
-scoreboard players reset @s ancient_abilities.ability_startup_timer
-
 scoreboard players set @s ancient_abilities.ability_right_click_cooldown 300
 
 effect give @s darkness 10 0

@@ -5,6 +5,8 @@ kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ancient_abilit
 # Prevent ability item pickup
 execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:{ability_item:true}}] run item replace entity @s player.cursor with air
 
+# Tick startup on specific abilities
+execute as @a[predicate=ancient_abilities:ability_auto_ticks_startup,scores={ancient_abilities.ability_startup_timer=1..}] run function ancient_abilities:abilities/tick_right_click
 
 
 # Oaths
@@ -12,7 +14,7 @@ execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:
 execute as @a[predicate=ancient_abilities:holding_oaths/any] at @s run function ancient_abilities:oaths/try_assign
 
 # Null
-# Posion particles
+# Poison particles
 execute at @a[scores={ancient_abilities.null_posion=1..}] run particle entity_effect{color:-13550049} ~ ~1 ~ 0.15 0.075 0.15 0 1
 
 # Hunter
@@ -25,7 +27,7 @@ execute as @a[team=ancient_abilities.oaths.intimidation] at @s run function anci
 
 # Abilities
 # Cancel when not using item
-execute as @a[advancements={ancient_abilities:right_click_ability_item=false},predicate=ancient_abilities:has_ability_timer] run function ancient_abilities:abilities/cancel
+execute as @a[advancements={ancient_abilities:right_click_ability_item=false},predicate=ancient_abilities:has_ability_timer,predicate=ancient_abilities:ability_grants_item] run function ancient_abilities:abilities/cancel
 execute as @a[advancements={ancient_abilities:right_click_ability_item=true}] run advancement revoke @s only ancient_abilities:right_click_ability_item
 
 # Warp Gate

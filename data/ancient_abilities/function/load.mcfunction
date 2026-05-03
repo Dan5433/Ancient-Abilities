@@ -47,6 +47,8 @@ scoreboard objectives add ancient_abilities.temp dummy
 
 # Ability Specific Scores
 scoreboard objectives add ancient_abilities.null_posion dummy
+scoreboard objectives add ancient_abilities.damage_dealt custom:damage_dealt
+scoreboard objectives add ancient_abilities.delay_damage dummy
 
 # Constants
 scoreboard players set $ticks_in_second ancient_abilities.constants 20

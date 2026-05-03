@@ -11,9 +11,12 @@ title @s actionbar [{score:{name:'$timer_seconds',objective:"ancient_abilities.t
 
 scoreboard players remove @s ancient_abilities.ability_startup_timer 1
 
+execute as @a[team=ancient_abilities.abilities.epic.delay,scores={ancient_abilities.damage_dealt=1..}] run function ancient_abilities:abilities/delay/set_delay_damage
+
 
 execute unless score @s ancient_abilities.ability_startup_timer matches ..0 run return fail
 
+scoreboard players reset @s ancient_abilities.ability_startup_timer
 execute as @s[team=ancient_abilities.abilities.unique.warp_gate] at @s run return run function ancient_abilities:abilities/warp_gate/warp
 execute as @s[team=ancient_abilities.oaths.hunter] at @s run return run function ancient_abilities:oaths/hunter/reveal_waypoints
 execute as @s[team=ancient_abilities.abilities.epic.healer] at @s run return run function ancient_abilities:abilities/healer/self_heal
