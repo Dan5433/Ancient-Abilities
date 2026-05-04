@@ -1,3 +1,5 @@
+$execute as @s[nbt={UUID:$(UUID)}] run return fail
+
 attribute @s jump_strength modifier add ancient_abilities:intimidation_chained_down -1 add_multiplied_total
 effect give @s slowness 1 0
 
