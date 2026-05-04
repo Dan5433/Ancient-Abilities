@@ -1,3 +1,10 @@
+data modify storage ancient_abilities:database taken_abilities append value {heightened_sense_physical:true}
+team join ancient_abilities.abilities.rare.physical @s
+
+function ancient_abilities:abilities/join
+
+function ancient_abilities:message {target:'@s',message:{text:"You now have the Heightened Sense Physical ability.",color:light_purple}}
+
 # jump 1.5 blocks
 attribute @s jump_strength modifier add ancient_abilities:heightened_sense_physical 0.1 add_value
 

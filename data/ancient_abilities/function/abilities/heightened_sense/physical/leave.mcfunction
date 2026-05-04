@@ -1,3 +1,5 @@
+data remove storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}]
+
 attribute @s jump_strength modifier remove ancient_abilities:heightened_sense_physical
 attribute @s attack_damage modifier remove ancient_abilities:heightened_sense_physical
 attribute @s movement_speed modifier remove ancient_abilities:heightened_sense_physical
