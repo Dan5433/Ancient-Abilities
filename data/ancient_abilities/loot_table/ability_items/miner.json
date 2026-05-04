@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:rarity": "epic",
+        "minecraft:enchantments": {
+          "fortune": 8
+        },
+        "unbreakable":{}
+      }
+    },
+    {
+      "function":"set_attributes",
+      "modifiers":[
+        {
+          "attribute":"mining_efficiency",
+          "amount": 100,
+          "id":"ancient_abilities:miner_pickaxe",
+          "operation":"add_value",
+          "slot":"mainhand"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_name",
+      "name": [
+        { "text": "M", "italic": false, "color": "#2f2829" },
+        { "text": "i", "italic": false, "color": "#595455" },
+        { "text": "n", "italic": false, "color": "#848081" },
+        { "text": "e", "italic": false, "color": "#aeacac" },
+        { "text": "r", "italic": false, "color": "#d8d8d8" }
+      ],
+      "target": "item_name"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "Extremely fast and fortunate pickaxe",
+          "bold": true,
+          "italic": false,
+          "color": "gold"
+        }
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "reference",
+      "name": "ancient_abilities:ability_item"
+    }
+  ]
+}
