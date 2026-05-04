@@ -21,6 +21,13 @@
       "predicate": {
         "team": "ancient_abilities.abilities.epic.healer"
       }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "team": "ancient_abilities.abilities.legendary.miner"
+      }
     }
   ]
 }
