@@ -69,5 +69,10 @@ execute as @a[team=ancient_abilities.abilities.legendary.invis] unless predicate
 execute as @a[team=ancient_abilities.abilities.legendary.multi] run function ancient_abilities:abilities/multi/passive
 execute as @a[team=ancient_abilities.abilities.legendary.multi] unless score @s ancient_abilities.multi.effect_cooldown matches 1.. run function ancient_abilities:abilities/multi/roll_effect
 
+
 # Tick startup on specific abilities
 execute as @a[predicate=ancient_abilities:ability_auto_ticks_startup,scores={ancient_abilities.ability_startup_timer=0..}] run function ancient_abilities:abilities/tick_right_click
+
+# Set crouch state
+execute as @a[predicate=ancient_abilities:is_crouching] run scoreboard players set @s ancient_abilities.crouched 1
+execute as @a[predicate=!ancient_abilities:is_crouching] run scoreboard players set @s ancient_abilities.crouched 0
