@@ -57,7 +57,7 @@ execute as @a[team=ancient_abilities.abilities.epic.delay,scores={ancient_abilit
 execute as @a[team=ancient_abilities.abilities.epic.delay,scores={ancient_abilities.ability_startup_timer=..0}] run function ancient_abilities:abilities/delay/reset
 
 # Enchanter
-execute as @a[team=ancient_abilities.abilities.legendary.enchanter] unless score @s ancient_abilities.enchanter.enchant_level matches 1.. if predicate ancient_abilities:is_crouching run function ancient_abilities:abilities/tick_right_click
+execute as @a[team=ancient_abilities.abilities.legendary.enchanter] unless score @s ancient_abilities.enchanter.enchant_level matches 0.. if predicate ancient_abilities:is_crouching run function ancient_abilities:abilities/tick_right_click
 execute as @a[team=ancient_abilities.abilities.legendary.enchanter] unless predicate ancient_abilities:is_crouching if predicate ancient_abilities:has_ability_timer run function ancient_abilities:abilities/cancel
 execute as @a[team=ancient_abilities.abilities.legendary.enchanter,scores={ancient_abilities.enchanter.enchant_level=1..}] unless predicate ancient_abilities:is_crouching at @s run function ancient_abilities:abilities/enchanter/enchant
 

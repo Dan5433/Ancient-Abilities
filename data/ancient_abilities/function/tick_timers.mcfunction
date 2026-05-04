@@ -15,6 +15,6 @@ execute as @a[scores={ancient_abilities.ability_right_click_cooldown=1..}] run s
 execute as @a[team=ancient_abilities.abilities.legendary.multi,scores={ancient_abilities.multi.effect_cooldown=1..}] run function ancient_abilities:abilities/multi/cooldown_tick
 
 # Tick enchanter levels
-execute as @a[team=ancient_abilities.abilities.legendary.enchanter,scores={ancient_abilities.enchanter.enchant_level=1..}] at @s run function ancient_abilities:abilities/enchanter/active_tick
+execute as @a[team=ancient_abilities.abilities.legendary.enchanter,scores={ancient_abilities.enchanter.enchant_level=0..}] at @s run function ancient_abilities:abilities/enchanter/active_tick
 
 schedule function ancient_abilities:tick_timers 1s
