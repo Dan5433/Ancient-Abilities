@@ -2,106 +2,118 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": "minecraft:redstone_block",
-    "L": "minecraft:lapis_block",
-    "I": "minecraft:iron_ingot",
-    "C": "minecraft:copper_ingot",
-    "G": "minecraft:gold_ingot"
+    "D": "minecraft:diamond",
+    "B": "minecraft:blaze_rod",
+    "W": "minecraft:nether_wart",
+    "G": "minecraft:gold_block",
+    "I": "minecraft:iron_block"
   },
-  "pattern": ["CGC", "IRI", "LLL"],
+  "pattern": ["BDB", "DWD", "IGI"],
   "result": {
     "components": {
-      "rarity": "rare",
+      "rarity": "epic",
       "item_name": [
         {
-          "text": "R",
+          "text": "E",
           "italic": false,
-          "color": "#1714c8"
+          "color": "#8b0fae"
         },
         {
-          "text": "a",
+          "text": "p",
           "italic": false,
-          "color": "#1726cb"
+          "color": "#9211aa"
         },
         {
-          "text": "r",
+          "text": "i",
           "italic": false,
-          "color": "#1739cf"
+          "color": "#9813a6"
         },
         {
-          "text": "e",
+          "text": "c",
           "italic": false,
-          "color": "#174bd2"
+          "color": "#9f16a2"
         },
         {
           "text": " ",
           "italic": false,
-          "color": "#175dd5"
+          "color": "#a5189e"
         },
         {
           "text": "A",
           "italic": false,
-          "color": "#1770d8"
+          "color": "#ac1a9a"
         },
         {
           "text": "b",
           "italic": false,
-          "color": "#1882dc"
+          "color": "#b21c97"
         },
         {
           "text": "i",
           "italic": false,
-          "color": "#1895df"
+          "color": "#b91e93"
         },
         {
           "text": "l",
           "italic": false,
-          "color": "#18a7e2"
+          "color": "#bf208f"
         },
         {
           "text": "i",
           "italic": false,
-          "color": "#18b9e5"
+          "color": "#c6238b"
         },
         {
           "text": "t",
           "italic": false,
-          "color": "#18cce9"
+          "color": "#cc2587"
         },
         {
           "text": "y",
           "italic": false,
-          "color": "#18deec"
+          "color": "#d32783"
         }
       ],
       "lore": [
         {
-          "text": "Grants a random Rare ability:",
+          "text": "Grants a random Epic ability:",
           "bold": true,
           "italic": false,
           "color": "gold"
         },
         {
-          "text": "Heightened Sense Radius",
+          "text": "Super Speed",
           "italic": false,
           "color": "white"
         },
         {
-          "text": "Heightened Sense Blind",
+          "text": "Super Durability",
           "italic": false,
           "color": "white"
         },
         {
-          "text": "Heightened Sense Physical",
+          "text": "Super Damage",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Healer",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Delay",
           "italic": false,
           "color": "white"
         }
       ],
       "custom_data": {
-        "ancient_abilities": { "ability_item": true }
+        "ancient_abilities": {
+          "ability_item": true
+        }
       }
     },
     "count": 1,
-    "id": "minecraft:lapis_block"
+    "id": "minecraft:amethyst_block"
   }
 }

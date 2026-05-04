@@ -3,23 +3,23 @@ advancement revoke @s only ancient_abilities:craft_abilities/rare
 function ancient_abilities:abilities/leave
 
 
+scoreboard players set $count ancient_abilities.temp 0
+execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_radius:true}] run scoreboard players add $count ancient_abilities.temp 1
+execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_blind:true}] run scoreboard players add $count ancient_abilities.temp 1
+execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}] run scoreboard players add $count ancient_abilities.temp 1
 
-execute if data storage ancient_abilities:database taken_abilities[{heightened_sense_blind:true}] if data storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}] run return run function ancient_abilities:abilities/heightened_sense/radius/join
-execute if data storage ancient_abilities:database taken_abilities[{heightened_sense_radius:true}] if data storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}] run return run function ancient_abilities:abilities/heightened_sense/blind/join
-execute if data storage ancient_abilities:database taken_abilities[{heightened_sense_radius:true}] if data storage ancient_abilities:database taken_abilities[{heightened_sense_blind:true}] run return run function ancient_abilities:abilities/heightened_sense/physical/join
-
-
-execute if data storage ancient_abilities:database taken_abilities[{heightened_sense_radius:true}] store result score $ability ancient_abilities.temp run random value 2..3 ancient_abilities:rare_abilities
-execute if data storage ancient_abilities:database taken_abilities[{heightened_sense_blind:true}] store result score $ability ancient_abilities.temp run random value 4..5 ancient_abilities:rare_abilities
-execute if data storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}] store result score $ability ancient_abilities.temp run random value 1..2 ancient_abilities:rare_abilities
-
-
-execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_radius:true}] unless data storage ancient_abilities:database taken_abilities[{heightened_sense_blind:true}] unless data storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}] store result score $ability ancient_abilities.temp run random value 1..3 ancient_abilities:rare_abilities
+execute if score $count ancient_abilities.temp matches 1 run scoreboard players set $random ancient_abilities.temp 1
+execute if score $count ancient_abilities.temp matches 2 store result score $random ancient_abilities.temp run random value 1..2 ancient_abilities:rare_abilities
+execute if score $count ancient_abilities.temp matches 3 store result score $random ancient_abilities.temp run random value 1..3 ancient_abilities:rare_abilities
 
 
-execute if score $ability ancient_abilities.temp matches 1 run return run function ancient_abilities:abilities/heightened_sense/radius/join
-execute if score $ability ancient_abilities.temp matches 2 run return run function ancient_abilities:abilities/heightened_sense/blind/join
-execute if score $ability ancient_abilities.temp matches 3 run return run function ancient_abilities:abilities/heightened_sense/physical/join
+scoreboard players set $current ancient_abilities.temp 0
 
-execute if score $ability ancient_abilities.temp matches 4 run return run function ancient_abilities:abilities/heightened_sense/radius/join
-execute if score $ability ancient_abilities.temp matches 5 run return run function ancient_abilities:abilities/heightened_sense/physical/join
+execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_radius:true}] run scoreboard players add $current ancient_abilities.temp 1
+execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run function ancient_abilities:abilities/heightened_sense/radius/join
+
+execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_blind:true}] run scoreboard players add $current ancient_abilities.temp 1
+execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run function ancient_abilities:abilities/heightened_sense/blind/join
+
+execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}] run scoreboard players add $current ancient_abilities.temp 1
+execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run function ancient_abilities:abilities/heightened_sense/physical/join
