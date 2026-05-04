@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "enter_cobweb": {
+      "trigger": "enter_block",
+      "conditions": {
+        "block": "cobweb",
+        "player": {
+          "team": "ancient_abilities.abilities.legendary.multi"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function":"ancient_abilities:abilities/multi/enter_cobweb"
+  }
+}

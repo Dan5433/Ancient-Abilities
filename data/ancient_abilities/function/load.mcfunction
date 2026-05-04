@@ -20,7 +20,7 @@ team add ancient_abilities.abilities.epic.delay
 
 # Legendary
 team add ancient_abilities.abilities.legendary.invis
-team add ancient_abilities.abilities.legendary.survivor
+team add ancient_abilities.abilities.legendary.multi
 team add ancient_abilities.abilities.legendary.enchanter
 team add ancient_abilities.abilities.legendary.miner
 
@@ -50,6 +50,8 @@ scoreboard objectives add ancient_abilities.null_posion dummy
 scoreboard objectives add ancient_abilities.damage_dealt custom:damage_dealt
 scoreboard objectives add ancient_abilities.delay_damage dummy
 scoreboard objectives add ancient_abilities.enchanter.enchant_level dummy
+scoreboard objectives add ancient_abilities.health health
+scoreboard objectives add ancient_abilities.multi.effect_cooldown dummy
 
 # Constants
 scoreboard players set $ticks_in_second ancient_abilities.constants 20
