@@ -1,4 +1,5 @@
 execute as @s[tag=ancient_abilities.swore_oath] run return run function ancient_abilities:oaths/already_under_oath
+execute as @s[tag=ancient_abilities.has_ability] run return run function ancient_abilities:oaths/switched_to_ability
 
 
 execute if predicate ancient_abilities:holding_oaths/hunter run function ancient_abilities:oaths/hunter/join

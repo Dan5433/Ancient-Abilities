@@ -8,6 +8,10 @@ execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:
 # Regive attributes after death
 execute as @e[type=player,scores={ancient_abilities.deaths=1..}] run function ancient_abilities:abilities/regive_attributes
 
+# Control ability recipes
+execute as @a run function ancient_abilities:abilities/recipes/control
+
+
 
 # Oaths
 # Check for signed oath book
