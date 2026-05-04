@@ -33,6 +33,7 @@ team remove ancient_abilities.abilities.unique.viltrumite
 # Misc/extra
 team remove ancient_abilities.warped
 scoreboard objectives remove ancient_abilities.deaths
+scoreboard objectives remove ancient_abilities.crouched
 
 # Scores
 scoreboard objectives remove ancient_abilities.given_ability_startup_timer
