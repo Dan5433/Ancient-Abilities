@@ -61,6 +61,10 @@ execute as @a[team=ancient_abilities.abilities.legendary.enchanter] unless score
 execute as @a[team=ancient_abilities.abilities.legendary.enchanter] unless predicate ancient_abilities:is_crouching if predicate ancient_abilities:has_ability_timer run function ancient_abilities:abilities/cancel
 execute as @a[team=ancient_abilities.abilities.legendary.enchanter,scores={ancient_abilities.enchanter.enchant_level=1..}] unless predicate ancient_abilities:is_crouching at @s run function ancient_abilities:abilities/enchanter/enchant
 
+# Invisibility
+execute as @a[team=ancient_abilities.abilities.legendary.invis] unless score @s ancient_abilities.ability_active_timer matches 1.. if predicate ancient_abilities:is_crouching run function ancient_abilities:abilities/tick_right_click
+execute as @a[team=ancient_abilities.abilities.legendary.invis] unless predicate ancient_abilities:is_crouching if predicate ancient_abilities:has_ability_timer run function ancient_abilities:abilities/cancel
+
 # Multi
 execute as @a[team=ancient_abilities.abilities.legendary.multi] run function ancient_abilities:abilities/multi/passive
 execute as @a[team=ancient_abilities.abilities.legendary.multi] unless score @s ancient_abilities.multi.effect_cooldown matches 1.. run function ancient_abilities:abilities/multi/roll_effect

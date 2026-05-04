@@ -23,3 +23,4 @@ execute as @s[team=ancient_abilities.abilities.unique.warp_gate] at @s run retur
 execute as @s[team=ancient_abilities.oaths.hunter] at @s run return run function ancient_abilities:oaths/hunter/reveal_waypoints
 execute as @s[team=ancient_abilities.abilities.epic.healer] at @s run return run function ancient_abilities:abilities/healer/self_heal
 execute as @s[team=ancient_abilities.abilities.legendary.enchanter] run return run function ancient_abilities:abilities/enchanter/activate
+execute as @s[team=ancient_abilities.abilities.legendary.invis] run return run function ancient_abilities:abilities/invisibility/go_invisible
