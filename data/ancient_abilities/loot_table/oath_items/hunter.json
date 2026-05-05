@@ -17,7 +17,7 @@
         "minecraft:rarity": "uncommon",
         "minecraft:item_model": "firework_star",
         "minecraft:consumable": {
-          "consume_seconds": 1.5,
+          "consume_seconds": 1.55,
           "sound": "block.beacon.ambient",
           "has_consume_particles": false,
           "animation": "spyglass"
