@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "minecraft:redstone_block",
+    "L": "minecraft:lapis_block",
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:copper_ingot",
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": ["CGC", "IRI", "LLL"],
+  "result": {
+    "components": {
+      "rarity": "rare",
+      "item_name": [
+        {
+          "text": "R",
+          "italic": false,
+          "color": "#1714c8"
+        },
+        {
+          "text": "a",
+          "italic": false,
+          "color": "#1726cb"
+        },
+        {
+          "text": "r",
+          "italic": false,
+          "color": "#1739cf"
+        },
+        {
+          "text": "e",
+          "italic": false,
+          "color": "#174bd2"
+        },
+        {
+          "text": " ",
+          "italic": false,
+          "color": "#175dd5"
+        },
+        {
+          "text": "A",
+          "italic": false,
+          "color": "#1770d8"
+        },
+        {
+          "text": "b",
+          "italic": false,
+          "color": "#1882dc"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#1895df"
+        },
+        {
+          "text": "l",
+          "italic": false,
+          "color": "#18a7e2"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#18b9e5"
+        },
+        {
+          "text": "t",
+          "italic": false,
+          "color": "#18cce9"
+        },
+        {
+          "text": "y",
+          "italic": false,
+          "color": "#18deec"
+        }
+      ],
+      "lore": [
+        {
+          "text": "Grants a random Rare ability:",
+          "bold": true,
+          "italic": false,
+          "color": "gold"
+        },
+        {
+          "text": "Heightened Sense Radius",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Heightened Sense Blind",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Heightened Sense Physical",
+          "italic": false,
+          "color": "white"
+        }
+      ],
+      "custom_data": {
+        "ancient_abilities": { "ability_item": true }
+      },
+      "enchantment_glint_override": true
+    },
+    "count": 1,
+    "id": "minecraft:lapis_block"
+  }
+}

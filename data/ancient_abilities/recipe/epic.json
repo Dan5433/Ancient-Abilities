@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:diamond",
+    "B": "minecraft:blaze_rod",
+    "W": "minecraft:nether_wart",
+    "G": "minecraft:gold_block",
+    "I": "minecraft:iron_block"
+  },
+  "pattern": ["BDB", "DWD", "IGI"],
+  "result": {
+    "components": {
+      "rarity": "epic",
+      "item_name": [
+        {
+          "text": "E",
+          "italic": false,
+          "color": "#8b0fae"
+        },
+        {
+          "text": "p",
+          "italic": false,
+          "color": "#9211aa"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#9813a6"
+        },
+        {
+          "text": "c",
+          "italic": false,
+          "color": "#9f16a2"
+        },
+        {
+          "text": " ",
+          "italic": false,
+          "color": "#a5189e"
+        },
+        {
+          "text": "A",
+          "italic": false,
+          "color": "#ac1a9a"
+        },
+        {
+          "text": "b",
+          "italic": false,
+          "color": "#b21c97"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#b91e93"
+        },
+        {
+          "text": "l",
+          "italic": false,
+          "color": "#bf208f"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#c6238b"
+        },
+        {
+          "text": "t",
+          "italic": false,
+          "color": "#cc2587"
+        },
+        {
+          "text": "y",
+          "italic": false,
+          "color": "#d32783"
+        }
+      ],
+      "lore": [
+        {
+          "text": "Grants a random Epic ability:",
+          "bold": true,
+          "italic": false,
+          "color": "gold"
+        },
+        {
+          "text": "Super Speed",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Super Durability",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Super Damage",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Healer",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Delay",
+          "italic": false,
+          "color": "white"
+        }
+      ],
+      "custom_data": {
+        "ancient_abilities": {
+          "ability_item": true
+        }
+      },
+      "enchantment_glint_override": true
+    },
+    "count": 1,
+    "id": "minecraft:amethyst_block"
+  }
+}

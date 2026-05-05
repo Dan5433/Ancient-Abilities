@@ -54,5 +54,8 @@ scoreboard objectives remove ancient_abilities.enchanter.enchant_level
 scoreboard objectives remove ancient_abilities.health
 scoreboard objectives remove ancient_abilities.multi.effect_cooldown
 
+# Undo gamerule change
+gamerule limited_crafting false
+
 
 function ancient_abilities:message {target:'@s',message:[{text:"Successfully removed all data.",color: red}]}

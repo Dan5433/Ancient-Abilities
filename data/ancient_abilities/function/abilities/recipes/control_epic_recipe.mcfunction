@@ -1,0 +1,3 @@
+execute if data storage ancient_abilities:database taken_abilities[{super_speed:true}] if data storage ancient_abilities:database taken_abilities[{super_damage:true}] if data storage ancient_abilities:database taken_abilities[{super_durability:true}] if data storage ancient_abilities:database taken_abilities[{healer:true}] if data storage ancient_abilities:database taken_abilities[{delay:true}] run return run recipe take @s ancient_abilities:epic
+
+recipe give @s ancient_abilities:epic

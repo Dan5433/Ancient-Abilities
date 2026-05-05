@@ -8,6 +8,10 @@ execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:
 # Regive attributes after death
 execute as @e[type=player,scores={ancient_abilities.deaths=1..}] run function ancient_abilities:abilities/regive_attributes
 
+# Control ability recipes
+execute as @a run function ancient_abilities:abilities/recipes/control
+
+
 
 # Oaths
 # Check for signed oath book
@@ -46,7 +50,6 @@ execute as @a[team=ancient_abilities.abilities.rare.blind] at @s run function an
 execute as @a[team=ancient_abilities.abilities.rare.physical] run function ancient_abilities:abilities/heightened_sense/physical/passive
 
 # Radius
-execute as @e[type=player,team=ancient_abilities.abilities.rare.physical] run function ancient_abilities:abilities/heightened_sense/physical/join
 execute as @a[team=ancient_abilities.abilities.rare.radius] at @s run function ancient_abilities:abilities/heightened_sense/radius/name_players_in_radius
 
 # Super Durability

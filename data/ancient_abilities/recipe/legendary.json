@@ -1,0 +1,140 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:heavy_core",
+    "D": "minecraft:diamond_block",
+    "N": "minecraft:netherite_scrap",
+    "E": "minecraft:emerald_block",
+    "X": "minecraft:experience_bottle"
+  },
+  "pattern": ["XNX", "ECE", "DDD"],
+  "result": {
+    "components": {
+      "rarity": "epic",
+      "item_name": [
+        {
+          "text": "L",
+          "italic": false,
+          "color": "#cea40d"
+        },
+        {
+          "text": "e",
+          "italic": false,
+          "color": "#d09c0f"
+        },
+        {
+          "text": "g",
+          "italic": false,
+          "color": "#d39511"
+        },
+        {
+          "text": "e",
+          "italic": false,
+          "color": "#d58d13"
+        },
+        {
+          "text": "n",
+          "italic": false,
+          "color": "#d78615"
+        },
+        {
+          "text": "d",
+          "italic": false,
+          "color": "#da7e16"
+        },
+        {
+          "text": "a",
+          "italic": false,
+          "color": "#dc7718"
+        },
+        {
+          "text": "r",
+          "italic": false,
+          "color": "#de6f1a"
+        },
+        {
+          "text": "y",
+          "italic": false,
+          "color": "#e1681c"
+        },
+        {
+          "text": " ",
+          "italic": false,
+          "color": "#e3601e"
+        },
+        {
+          "text": "A",
+          "italic": false,
+          "color": "#e55820"
+        },
+        {
+          "text": "b",
+          "italic": false,
+          "color": "#e75122"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#ea4924"
+        },
+        {
+          "text": "l",
+          "italic": false,
+          "color": "#ec4225"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#ee3a27"
+        },
+        {
+          "text": "t",
+          "italic": false,
+          "color": "#f13329"
+        },
+        {
+          "text": "y",
+          "italic": false,
+          "color": "#f32b2b"
+        }
+      ],
+      "lore": [
+        {
+          "text": "Grants a random Epic ability:",
+          "bold": true,
+          "italic": false,
+          "color": "gold"
+        },
+        {
+          "text": "Invisibility",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Multi",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Enchanter",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "Miner",
+          "italic": false,
+          "color": "white"
+        }
+      ],
+      "custom_data": {
+        "ancient_abilities": {
+          "ability_item": true
+        }
+      },
+      "enchantment_glint_override": true
+    },
+    "count": 1,
+    "id": "minecraft:gold_block"
+  }
+}
