@@ -20,7 +20,7 @@
           "custom_color": 13042750
         },
         "minecraft:consumable": {
-          "consume_seconds": 3,
+          "consume_seconds": 3.05,
           "sound": "item.brush.brushing.generic",
           "has_consume_particles": false,
           "animation":"crossbow"

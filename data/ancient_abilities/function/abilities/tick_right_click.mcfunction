@@ -5,7 +5,7 @@ execute as @s[team=ancient_abilities.abilities.legendary.enchanter] unless predi
 execute if score @s ancient_abilities.ability_right_click_cooldown matches 1.. run return run function ancient_abilities:display_cooldown {score:ancient_abilities.ability_right_click_cooldown}
 
 
-execute unless score @s ancient_abilities.ability_startup_timer matches -1.. run return run function ancient_abilities:set_startup_timers
+execute unless score @s ancient_abilities.ability_startup_timer matches 0.. run return run function ancient_abilities:set_startup_timers
 
 
 scoreboard players operation $timer_seconds ancient_abilities.temp = @s ancient_abilities.ability_startup_timer
