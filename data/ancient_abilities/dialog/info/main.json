@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Ancient Oaths and Abilities",
+  "exit_action": {
+    "label": "Exit"
+  },
+  "columns": 1,
+  "button_width": 200,
+  "dialogs": ["ancient_abilities:info/oaths", "ancient_abilities:info/abilities"]
+}

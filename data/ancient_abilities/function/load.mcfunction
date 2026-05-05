@@ -46,6 +46,8 @@ scoreboard objectives add ancient_abilities.ability_right_click_cooldown dummy
 scoreboard objectives add ancient_abilities.constants dummy
 scoreboard objectives add ancient_abilities.temp dummy
 
+scoreboard objectives add ancient_abilities.info trigger
+
 # Ability Specific Scores
 scoreboard objectives add ancient_abilities.null_posion dummy
 scoreboard objectives add ancient_abilities.damage_dealt custom:damage_dealt
