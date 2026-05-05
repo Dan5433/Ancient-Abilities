@@ -1,0 +1,3 @@
+execute if data storage ancient_abilities:database taken_abilities[{invisibility:true}] if data storage ancient_abilities:database taken_abilities[{multi:true}] if data storage ancient_abilities:database taken_abilities[{enchanter:true}] if data storage ancient_abilities:database taken_abilities[{miner:true}] run return run recipe take @s ancient_abilities:legendary
+
+recipe give @s ancient_abilities:legendary

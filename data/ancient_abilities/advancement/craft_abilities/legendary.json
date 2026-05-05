@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id":"ancient_abilities:legendary"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ancient_abilities:abilities/recipes/grant_legendary"
+  }
+}

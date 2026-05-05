@@ -2,76 +2,101 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "D": "minecraft:diamond",
-    "B": "minecraft:blaze_rod",
-    "W": "minecraft:nether_wart",
-    "G": "minecraft:gold_block",
-    "I": "minecraft:iron_block"
+    "C": "minecraft:heavy_core",
+    "D": "minecraft:diamond_block",
+    "N": "minecraft:netherite_scrap",
+    "E": "minecraft:emerald_block",
+    "X": "minecraft:experience_bottle"
   },
-  "pattern": ["BDB", "DWD", "IGI"],
+  "pattern": ["XNX", "ECE", "DDD"],
   "result": {
     "components": {
       "rarity": "epic",
       "item_name": [
         {
-          "text": "E",
+          "text": "L",
           "italic": false,
-          "color": "#8b0fae"
+          "color": "#cea40d"
         },
         {
-          "text": "p",
+          "text": "e",
           "italic": false,
-          "color": "#9211aa"
+          "color": "#d09c0f"
         },
         {
-          "text": "i",
+          "text": "g",
           "italic": false,
-          "color": "#9813a6"
+          "color": "#d39511"
         },
         {
-          "text": "c",
+          "text": "e",
           "italic": false,
-          "color": "#9f16a2"
+          "color": "#d58d13"
         },
         {
-          "text": " ",
+          "text": "n",
           "italic": false,
-          "color": "#a5189e"
+          "color": "#d78615"
         },
         {
-          "text": "A",
+          "text": "d",
           "italic": false,
-          "color": "#ac1a9a"
+          "color": "#da7e16"
         },
         {
-          "text": "b",
+          "text": "a",
           "italic": false,
-          "color": "#b21c97"
+          "color": "#dc7718"
         },
         {
-          "text": "i",
+          "text": "r",
           "italic": false,
-          "color": "#b91e93"
-        },
-        {
-          "text": "l",
-          "italic": false,
-          "color": "#bf208f"
-        },
-        {
-          "text": "i",
-          "italic": false,
-          "color": "#c6238b"
-        },
-        {
-          "text": "t",
-          "italic": false,
-          "color": "#cc2587"
+          "color": "#de6f1a"
         },
         {
           "text": "y",
           "italic": false,
-          "color": "#d32783"
+          "color": "#e1681c"
+        },
+        {
+          "text": " ",
+          "italic": false,
+          "color": "#e3601e"
+        },
+        {
+          "text": "A",
+          "italic": false,
+          "color": "#e55820"
+        },
+        {
+          "text": "b",
+          "italic": false,
+          "color": "#e75122"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#ea4924"
+        },
+        {
+          "text": "l",
+          "italic": false,
+          "color": "#ec4225"
+        },
+        {
+          "text": "i",
+          "italic": false,
+          "color": "#ee3a27"
+        },
+        {
+          "text": "t",
+          "italic": false,
+          "color": "#f13329"
+        },
+        {
+          "text": "y",
+          "italic": false,
+          "color": "#f32b2b"
         }
       ],
       "lore": [
@@ -82,27 +107,22 @@
           "color": "gold"
         },
         {
-          "text": "Super Speed",
+          "text": "Invisibility",
           "italic": false,
           "color": "white"
         },
         {
-          "text": "Super Durability",
+          "text": "Multi",
           "italic": false,
           "color": "white"
         },
         {
-          "text": "Super Damage",
+          "text": "Enchanter",
           "italic": false,
           "color": "white"
         },
         {
-          "text": "Healer",
-          "italic": false,
-          "color": "white"
-        },
-        {
-          "text": "Delay",
+          "text": "Miner",
           "italic": false,
           "color": "white"
         }
@@ -115,6 +135,6 @@
       "enchantment_glint_override": true
     },
     "count": 1,
-    "id": "minecraft:amethyst_block"
+    "id": "minecraft:gold_block"
   }
 }
