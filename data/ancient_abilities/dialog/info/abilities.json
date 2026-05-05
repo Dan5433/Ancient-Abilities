@@ -1,4 +1,12 @@
 {
   "type": "minecraft:notice",
-  "title": "Abilities"
+  "title": "Abilities",
+  "action": {
+    "label": "Back",
+    "width": 75, 
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/main"
+    }
+  }
 }

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:notice",
+  "title": "Oath of Intimidation",
+  "external_title": "Intimidation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Oath: ",
+        "extra": [
+          {
+            "text": "I swear to hunt.",
+            "bold": false
+          }
+        ],
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Passives: All players in a ",
+        {
+          "text": "10 block radius ",
+          "italic": true
+        },
+        "are unable to jump and get slowness 1."
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Actives: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/oaths/main"
+    },
+    "width": 75
+  }
+}
