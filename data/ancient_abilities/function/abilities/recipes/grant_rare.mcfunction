@@ -16,10 +16,10 @@ execute if score $count ancient_abilities.temp matches 3 store result score $ran
 scoreboard players set $current ancient_abilities.temp 0
 
 execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_radius:true}] run scoreboard players add $current ancient_abilities.temp 1
-execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run function ancient_abilities:abilities/heightened_sense/radius/join
+execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run return run function ancient_abilities:abilities/heightened_sense/radius/join
 
 execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_blind:true}] run scoreboard players add $current ancient_abilities.temp 1
-execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run function ancient_abilities:abilities/heightened_sense/blind/join
+execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run return run function ancient_abilities:abilities/heightened_sense/blind/join
 
 execute unless data storage ancient_abilities:database taken_abilities[{heightened_sense_physical:true}] run scoreboard players add $current ancient_abilities.temp 1
-execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run function ancient_abilities:abilities/heightened_sense/physical/join
+execute if score $current ancient_abilities.temp = $random ancient_abilities.temp run return run function ancient_abilities:abilities/heightened_sense/physical/join
