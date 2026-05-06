@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:notice",
+  "title": "Multi",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Passive: You can ",
+        {
+          "text": "jump 1.5 blocks",
+          "italic": true
+        },
+        ", have ",
+        {
+          "text": "2 extra hearts ",
+          "italic": true
+        },
+        "of health, move ",
+        {
+          "text": "5% faster",
+          "italic": true
+        },
+        ", and have ",
+        {
+          "text": "20% resistance ",
+          "italic": true
+        },
+        "to almost all damage. You also permanently have the ",
+        {
+          "text": "conduit effect",
+          "italic": true
+        },
+        ", receive a ",
+        {
+          "text": "random positive effect ",
+          "italic": true
+        },
+        "every hour, and gain ",
+        {
+          "text": "invisibility ",
+          "italic": true
+        },
+        "when under ",
+        {
+          "text": "3 hearts of health. Fall damage",
+          "italic": true
+        },
+        " is ",
+        {
+          "text": "decreased by 80%.",
+          "italic": true
+        }
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Active: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/legendary/main"
+    },
+    "width": 75
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:notice",
+  "title": "Oath of Nullification",
+  "external_title": "Nullification",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Oath: ",
+        "extra": [
+          {
+            "text": "I swear to nullify.",
+            "bold": false
+          }
+        ],
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Active: Nullify a player's ",
+        {
+          "text": "ability ",
+          "italic": true
+        },
+        "for 5 seconds when you hit them."
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/oaths/main"
+    },
+    "width": 75
+  }
+}

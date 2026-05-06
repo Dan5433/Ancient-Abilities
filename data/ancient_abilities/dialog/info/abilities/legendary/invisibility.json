@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:notice",
+  "title": "Invisibility",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Active: Crouch to go ",
+        {
+          "text": "invisible ",
+          "italic": true
+        },
+        "and receive ",
+        {
+          "text": "regeneration 2 ",
+          "italic": true
+        },
+        "for ",
+        {
+          "text": "10 seconds.",
+          "italic": true
+        }
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/legendary/main"
+    },
+    "width": 75
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:notice",
+  "title": "Delay",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Active: Your damage ",
+        {
+          "text": "repeats ",
+          "italic": true
+        },
+        "after ",
+        {
+          "text": "3 seconds ",
+          "italic": true
+        },
+        "if you ",
+        {
+          "text": "don't get hurt.",
+          "italic": true
+        }
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/epic/main"
+    },
+    "width": 75
+  }
+}

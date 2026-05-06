@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:notice",
+  "title": "Oath of Restriction",
+  "external_title": "Restriction",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Oath: ",
+        "extra": [
+          {
+            "text": "I swear to restrict.",
+            "bold": false
+          }
+        ],
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Active: Restrict a player's ",
+        {
+          "text": "ability ",
+          "italic": true
+        },
+        "when you kill them. All ",
+        {
+          "text": "online ",
+          "italic": true
+        },
+        "players that were restricted by you get unrestricted if you are killed by a player."
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/oaths/main"
+    },
+    "width": 75
+  }
+}

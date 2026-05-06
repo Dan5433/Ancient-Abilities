@@ -46,6 +46,8 @@ scoreboard objectives remove ancient_abilities.ability_right_click_cooldown
 scoreboard objectives remove ancient_abilities.constants
 scoreboard objectives remove ancient_abilities.temp
 
+scoreboard objectives remove ancient_abilities.info
+
 # Ability Specific Scores
 scoreboard objectives remove ancient_abilities.null_posion
 scoreboard objectives remove ancient_abilities.damage_dealt

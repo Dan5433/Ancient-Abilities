@@ -23,7 +23,7 @@
           "consume_seconds": 3.05,
           "sound": "item.brush.brushing.generic",
           "has_consume_particles": false,
-          "animation":"crossbow"
+          "animation": "crossbow"
         },
         "minecraft:enchantments": {
           "ancient_abilities:ability_item_attack": 1
@@ -55,7 +55,7 @@
           "color": "gold"
         },
         {
-          "text": "Heal the hit entity",
+          "text": "Heal the hit entity (regeneration 3 for 20 seconds)",
           "italic": false,
           "color": "white"
         },
@@ -67,7 +67,7 @@
           "color": "gold"
         },
         {
-          "text": "Heal yourself",
+          "text": "Heal yourself (regeneration 3 for 10 seconds)",
           "italic": false,
           "color": "white"
         }
@@ -77,6 +77,12 @@
     {
       "function": "reference",
       "name": "ancient_abilities:ability_item"
+    },
+    {
+      "function": "minecraft:toggle_tooltips",
+      "toggles": {
+        "enchantments": false
+      }
     }
   ]
 }

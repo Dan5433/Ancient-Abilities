@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Abilities",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Abilities are per player, meaning abilities already taken by other players cannot be granted to other players.",
+        "type": "text",
+        "bold": true
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:crafting_table"
+      },
+      "description": {
+        "contents": "Abilities are crafted. Tiered ones are given at random, while the unique ones have separate crafting recipes.",
+        "width": 300
+      }
+    }
+  ],
+  "exit_action": {
+    "label": "Back",
+    "width": 75,
+    "action": {
+      "type": "show_dialog",
+      "dialog": "ancient_abilities:info/main"
+    }
+  },
+  "button_width": 150,
+  "columns": 1,
+  "dialogs": [
+    "ancient_abilities:info/abilities/rare/main",
+    "ancient_abilities:info/abilities/epic/main",
+    "ancient_abilities:info/abilities/legendary/main",
+    "ancient_abilities:info/abilities/unique/main"
+  ]
+}

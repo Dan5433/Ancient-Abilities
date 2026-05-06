@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Unique Abilities",
+  "exit_action": {
+    "label": "Back",
+    "width": 75,
+    "action": {
+      "type": "show_dialog",
+      "dialog": "ancient_abilities:info/abilities/main"
+    }
+  },
+  "button_width": 150,
+  "columns": 1,
+  "dialogs": [
+    "ancient_abilities:info/abilities/unique/warp_gate"
+  ]
+}

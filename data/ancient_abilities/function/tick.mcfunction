@@ -12,6 +12,13 @@ execute as @e[type=player,scores={ancient_abilities.deaths=1..}] run function an
 execute as @a run function ancient_abilities:abilities/recipes/control
 
 
+# Dialog
+# Enable trigger
+scoreboard players enable @a ancient_abilities.info
+
+# Display
+execute as @a unless score @s ancient_abilities.info matches 0 run function ancient_abilities:dialog/show_info
+
 
 # Oaths
 # Check for signed oath book

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Oaths",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "How to Swear In an Oath",
+        "type": "text",
+        "underlined": true
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:writable_book"
+      },
+      "description": {
+        "contents": "Write in the oath and sign it with the title \"Oath\" ",
+        "width": 250
+      }
+    },
+    {
+      "type": "plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Oaths",
+        "type": "text",
+        "underlined": true
+      }
+    }
+  ],
+  "exit_action": {
+    "label": "Back",
+    "width": 75,
+    "action": {
+      "type": "show_dialog",
+      "dialog": "ancient_abilities:info/main"
+    }
+  },
+  "button_width": 150,
+  "columns": 1,
+  "dialogs": [
+    "ancient_abilities:info/oaths/nullification",
+    "ancient_abilities:info/oaths/restriction",
+    "ancient_abilities:info/oaths/intimidation",
+    "ancient_abilities:info/oaths/hunter"
+  ]
+}

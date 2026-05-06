@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Rare Abilities",
+  "exit_action": {
+    "label": "Back",
+    "width": 75,
+    "action": {
+      "type": "show_dialog",
+      "dialog": "ancient_abilities:info/abilities/main"
+    }
+  },
+  "button_width": 150,
+  "columns": 1,
+  "dialogs": [
+    "ancient_abilities:info/abilities/rare/heightened_sense_radius",
+    "ancient_abilities:info/abilities/rare/heightened_sense_blind",
+    "ancient_abilities:info/abilities/rare/heightened_sense_physical"
+  ]
+}
