@@ -23,7 +23,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        "Passives: All players in a ",
+        "Passive: All players in a ",
         {
           "text": "10 block radius ",
           "italic": true
@@ -34,7 +34,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Actives: None"
+      "contents": "Active: None"
     },
     {
       "type": "minecraft:plain_message",

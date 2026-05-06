@@ -22,8 +22,12 @@
     },
     {
       "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
       "contents": [
-        "Passives: Nullify a player's ",
+        "Active: Nullify a player's ",
         {
           "text": "ability ",
           "italic": true
@@ -31,10 +35,6 @@
         "for 5 seconds when you hit them."
       ],
       "width": 300
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "Actives: None"
     },
     {
       "type": "minecraft:plain_message",

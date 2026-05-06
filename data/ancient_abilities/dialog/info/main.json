@@ -9,6 +9,6 @@
   "columns": 1,
   "dialogs": [
     "ancient_abilities:info/oaths/main",
-    "ancient_abilities:info/abilities"
+    "ancient_abilities:info/abilities/main"
   ]
 }

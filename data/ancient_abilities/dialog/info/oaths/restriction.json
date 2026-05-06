@@ -22,8 +22,12 @@
     },
     {
       "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
       "contents": [
-        "Passives: Restrict a player's ",
+        "Active: Restrict a player's ",
         {
           "text": "ability ",
           "italic": true
@@ -36,10 +40,6 @@
         "players that were restricted by you get unrestricted if you are killed by a player."
       ],
       "width": 300
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "Actives: None"
     },
     {
       "type": "minecraft:plain_message",

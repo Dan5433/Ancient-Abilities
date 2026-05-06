@@ -69,4 +69,4 @@ function ancient_abilities:tick_timers
 gamerule limited_crafting true
 
 say [Ancient Abilities] Succesfully loaded!
-function ancient_abilities:message {target:'@a',message:[{text: "Succesfully loaded! ",color: green}," ",{text: "Click here to uninstall.",color: red,bold:true,underlined:true,click_event: {action: "run_command",command: "function ancient_abilities:uninstall"},hover_event: {action:"show_text",value:{text:"Uninstall",color:red}}}]}
+function ancient_abilities:message {target:'@p',message:[{text: "Succesfully loaded! ",color: green}," ",{text: "Click here to remove all data.",color: red,bold:true,underlined:true,click_event: {action: "run_command",command: "function ancient_abilities:uninstall"},hover_event: {action:"show_text",value:{text:"Uninstall",color:red}}}]}

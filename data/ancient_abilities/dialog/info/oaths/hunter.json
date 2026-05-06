@@ -22,11 +22,11 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Passives: None"
+      "contents": "Passive: None"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Actives: None"
+      "contents": "Active: None"
     },
     {
       "type": "minecraft:item",

@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:notice",
+  "title": "Heightened Sense Physical",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Passive: You can ",
+        {
+          "text": "jump 1.5 blocks",
+          "italic": true
+        },
+        ", deal ",
+        {
+          "text": "1 extra heart ",
+          "italic": true
+        },
+        "of damage, move ",
+        {
+          "text": "5% faster ",
+          "italic": true
+        },
+        ", and have ",
+        {
+          "text": "20% resistance ",
+          "italic": true
+        },
+        "to almost all damage."
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Active: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/main"
+    },
+    "width": 75
+  }
+}

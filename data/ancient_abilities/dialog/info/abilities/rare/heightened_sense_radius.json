@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:notice",
+  "title": "Heightened Sense Radius",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Passive: Get an indicator when players enter a ",
+        {
+          "text": "40 block radius ",
+          "italic": true
+        },
+        "around you."
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Active: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/rare/main"
+    },
+    "width": 75
+  }
+}
