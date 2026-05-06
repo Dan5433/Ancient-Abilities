@@ -5,7 +5,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        "Passive: Your",
+        "Passive: Your ",
         {
           "text": "attack damage ",
           "italic": true

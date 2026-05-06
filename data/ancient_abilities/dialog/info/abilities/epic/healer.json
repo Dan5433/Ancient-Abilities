@@ -68,7 +68,7 @@
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "ancient_abilities:info/oaths/main"
+      "dialog": "ancient_abilities:info/abilities/epic/main"
     },
     "width": 75
   }

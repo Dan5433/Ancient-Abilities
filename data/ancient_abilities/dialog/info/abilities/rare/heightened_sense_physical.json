@@ -42,7 +42,7 @@
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "ancient_abilities:info/abilities/main"
+      "dialog": "ancient_abilities:info/abilities/rare/main"
     },
     "width": 75
   }
