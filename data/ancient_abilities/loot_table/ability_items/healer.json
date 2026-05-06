@@ -55,7 +55,7 @@
           "color": "gold"
         },
         {
-          "text": "Heal the hit entity",
+          "text": "Heal the hit entity (regeneration 3 for 20 seconds)",
           "italic": false,
           "color": "white"
         },
@@ -67,7 +67,7 @@
           "color": "gold"
         },
         {
-          "text": "Heal yourself",
+          "text": "Heal yourself (regeneration 3 for 10 seconds)",
           "italic": false,
           "color": "white"
         }

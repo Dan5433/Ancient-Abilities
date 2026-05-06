@@ -27,6 +27,7 @@
   "button_width": 150,
   "columns": 1,
   "dialogs": [
-    "ancient_abilities:info/abilities/rare/main"
+    "ancient_abilities:info/abilities/rare/main",
+    "ancient_abilities:info/abilities/epic/main"
   ]
 }

@@ -77,7 +77,8 @@
               "italic": false,
               "color": "white"
             }
-          ]
+          ],
+          "enchantment_glint_override": true
         }
       },
       "description": {

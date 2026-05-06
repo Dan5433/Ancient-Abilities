@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Epic Abilities",
+  "exit_action": {
+    "label": "Back",
+    "width": 75,
+    "action": {
+      "type": "show_dialog",
+      "dialog": "ancient_abilities:info/abilities/main"
+    }
+  },
+  "button_width": 150,
+  "columns": 1,
+  "dialogs": [
+    "ancient_abilities:info/abilities/epic/super_speed",
+    "ancient_abilities:info/abilities/epic/super_durability",
+    "ancient_abilities:info/abilities/epic/super_damage",
+    "ancient_abilities:info/abilities/epic/healer",
+    "ancient_abilities:info/abilities/epic/delay"
+  ]
+}
