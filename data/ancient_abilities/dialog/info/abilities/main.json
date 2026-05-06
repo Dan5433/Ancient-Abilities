@@ -12,8 +12,14 @@
       "width": 300
     },
     {
-      "type": "plain_message",
-      "contents": ""
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:crafting_table"
+      },
+      "description": {
+        "contents": "Abilities are crafted. Tiered ones are given at random, while the unique ones have separate crafting recipes.",
+        "width": 300
+      }
     }
   ],
   "exit_action": {
@@ -29,6 +35,7 @@
   "dialogs": [
     "ancient_abilities:info/abilities/rare/main",
     "ancient_abilities:info/abilities/epic/main",
-    "ancient_abilities:info/abilities/legendary/main"
+    "ancient_abilities:info/abilities/legendary/main",
+    "ancient_abilities:info/abilities/unique/main"
   ]
 }

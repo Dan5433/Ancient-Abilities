@@ -1,0 +1,117 @@
+{
+  "type": "minecraft:notice",
+  "title": "Warp Gate",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Active: None"
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:ender_eye",
+        "components": {
+          "minecraft:item_name": [
+            {
+              "text": "W",
+              "italic": false,
+              "color": "#2b9fda"
+            },
+            {
+              "text": "a",
+              "italic": false,
+              "color": "#2aa7d6"
+            },
+            {
+              "text": "r",
+              "italic": false,
+              "color": "#29b0d2"
+            },
+            {
+              "text": "p",
+              "italic": false,
+              "color": "#28b8ce"
+            },
+            {
+              "text": " ",
+              "italic": false,
+              "color": "#27c0cb"
+            },
+            {
+              "text": "G",
+              "italic": false,
+              "color": "#26c8c7"
+            },
+            {
+              "text": "a",
+              "italic": false,
+              "color": "#25d1c3"
+            },
+            {
+              "text": "t",
+              "italic": false,
+              "color": "#24d9bf"
+            },
+            {
+              "text": "e",
+              "italic": false,
+              "color": "#23e1bb"
+            }
+          ],
+          "minecraft:lore": [
+            {
+              "text": "Left-Click",
+              "bold": true,
+              "italic": false,
+              "color": "gold"
+            },
+            {
+              "text": "Teleport the hit entity to the pocket dimension",
+              "italic": false,
+              "color": "white"
+            },
+            {
+              "text": "or back to the overworld",
+              "italic": false,
+              "color": "white"
+            },
+            "",
+            {
+              "text": "Right-Click",
+              "bold": true,
+              "italic": false,
+              "color": "gold"
+            },
+            {
+              "text": "Teleport yourself to the pocket dimension",
+              "italic": false,
+              "color": "white"
+            },
+            {
+              "text": "or back to the overworld",
+              "italic": false,
+              "color": "white"
+            }
+          ],
+          "enchantment_glint_override": true
+        }
+      },
+      "description": {
+        "contents": "Ability Item",
+        "width": 65
+      }
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/unique/main"
+    },
+    "width": 75
+  }
+}
