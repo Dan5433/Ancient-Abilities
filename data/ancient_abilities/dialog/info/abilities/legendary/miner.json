@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:notice",
+  "title": "Miner",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Active: None"
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:netherite_pickaxe",
+        "components": {
+          "minecraft:item_name": [
+            { "text": "M", "italic": false, "color": "#2f2829" },
+            { "text": "i", "italic": false, "color": "#595455" },
+            { "text": "n", "italic": false, "color": "#848081" },
+            { "text": "e", "italic": false, "color": "#aeacac" },
+            { "text": "r", "italic": false, "color": "#d8d8d8" }
+          ],
+          "minecraft:lore": [
+            {
+              "text": "Extremely fast and fortunate pickaxe",
+              "bold": true,
+              "italic": false,
+              "color": "gold"
+            }
+          ],
+          "enchantment_glint_override": true,
+          "attribute_modifiers": [
+            {
+              "type": "mining_efficiency",
+              "amount": 100,
+              "id": "ancient_abilities:miner_pickaxe",
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ],
+          "minecraft:enchantments": {
+            "fortune": 8
+          },
+          "unbreakable": {}
+        }
+      },
+      "description": {
+        "contents": "Ability Item",
+        "width": 65
+      }
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/legendary/main"
+    },
+    "width": 75
+  }
+}

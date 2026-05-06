@@ -1,6 +1,6 @@
 {
   "type": "minecraft:notice",
-  "title": "Heightened Sense Physical",
+  "title": "Multi",
   "body": [
     {
       "type": "minecraft:plain_message",
@@ -10,12 +10,12 @@
           "text": "jump 1.5 blocks",
           "italic": true
         },
-        ", deal ",
+        ", have ",
         {
-          "text": "1 extra heart ",
+          "text": "2 extra hearts ",
           "italic": true
         },
-        "of damage, move ",
+        "of health, move ",
         {
           "text": "5% faster",
           "italic": true
@@ -25,7 +25,31 @@
           "text": "20% resistance ",
           "italic": true
         },
-        "to almost all damage."
+        "to almost all damage. You also permanently have the ",
+        {
+          "text": "conduit effect",
+          "italic": true
+        },
+        ", receive a ",
+        {
+          "text": "random positive effect ",
+          "italic": true
+        },
+        "every hour, and gain ",
+        {
+          "text": "invisibility ",
+          "italic": true
+        },
+        "when under ",
+        {
+          "text": "3 hearts of health. Fall damage",
+          "italic": true
+        },
+        " is ",
+        {
+          "text": "decreased by 80%.",
+          "italic": true
+        }
       ],
       "width": 300
     },
@@ -42,7 +66,7 @@
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "ancient_abilities:info/abilities/main"
+      "dialog": "ancient_abilities:info/abilities/legendary/main"
     },
     "width": 75
   }

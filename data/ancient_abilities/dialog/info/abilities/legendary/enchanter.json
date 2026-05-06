@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:notice",
+  "title": "Enchanter",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Passive: None"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Active: Crouch to ",
+        {
+          "text": "enchant ",
+          "italic": true
+        },
+        "the item in your hand at a specific level. Only a ",
+        {
+          "text": "third ",
+          "italic": true
+        },
+        "of the chosen enchant level is subtracted from your XP.",
+        "\n(e.g. enchanting an item at level 30 will only subtract 10 levels)."
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Ability Item: None"
+    }
+  ],
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "ancient_abilities:info/abilities/legendary/main"
+    },
+    "width": 75
+  }
+}

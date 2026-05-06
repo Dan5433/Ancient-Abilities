@@ -59,6 +59,12 @@
     {
       "function": "reference",
       "name": "ancient_abilities:ability_item"
+    },
+    {
+      "function": "minecraft:toggle_tooltips",
+      "toggles": {
+        "enchantments": false
+      }
     }
   ]
 }

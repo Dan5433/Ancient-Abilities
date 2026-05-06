@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Legendary Abilities",
+  "exit_action": {
+    "label": "Back",
+    "width": 75,
+    "action": {
+      "type": "show_dialog",
+      "dialog": "ancient_abilities:info/abilities/main"
+    }
+  },
+  "button_width": 150,
+  "columns": 1,
+  "dialogs": [
+    "ancient_abilities:info/abilities/legendary/invisibility",
+    "ancient_abilities:info/abilities/legendary/multi",
+    "ancient_abilities:info/abilities/legendary/enchanter",
+    "ancient_abilities:info/abilities/legendary/miner"
+  ]
+}

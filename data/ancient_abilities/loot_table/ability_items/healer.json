@@ -23,7 +23,7 @@
           "consume_seconds": 3.05,
           "sound": "item.brush.brushing.generic",
           "has_consume_particles": false,
-          "animation":"crossbow"
+          "animation": "crossbow"
         },
         "minecraft:enchantments": {
           "ancient_abilities:ability_item_attack": 1
@@ -77,6 +77,12 @@
     {
       "function": "reference",
       "name": "ancient_abilities:ability_item"
+    },
+    {
+      "function": "minecraft:toggle_tooltips",
+      "toggles": {
+        "enchantments": false
+      }
     }
   ]
 }
