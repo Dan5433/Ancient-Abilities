@@ -1,3 +1,6 @@
+execute as @s[tag=ancient_abilities.restricted] run return run title @s actionbar {text:"Restricted",color:red}
+
+
 scoreboard players set @s ancient_abilities.deaths 0
 
 execute as @s[team=ancient_abilities.abilities.rare.physical] run return run function ancient_abilities:abilities/heightened_sense/physical/join

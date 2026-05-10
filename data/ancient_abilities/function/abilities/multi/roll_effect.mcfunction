@@ -1,3 +1,6 @@
+execute as @s[tag=ancient_abilities.restricted] run return run title @s actionbar {text:"Restricted",color:red}
+
+
 scoreboard players set @s ancient_abilities.multi.effect_cooldown 3600
 
 execute store result score $multi_effect ancient_abilities.temp run random value 1..11 ancient_abilities:multi_effect

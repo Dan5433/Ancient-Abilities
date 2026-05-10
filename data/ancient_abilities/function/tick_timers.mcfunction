@@ -12,6 +12,7 @@ execute as @a[scores={ancient_abilities.ability_left_click_cooldown=1..}] run sc
 execute as @a[scores={ancient_abilities.ability_right_click_cooldown=1..}] run scoreboard players remove @s ancient_abilities.ability_right_click_cooldown 1
 
 # Tick multi effect cooldown
+execute as @a[team=ancient_abilities.abilities.legendary.multi] unless score @s ancient_abilities.multi.effect_cooldown matches 1.. run function ancient_abilities:abilities/multi/roll_effect
 execute as @a[team=ancient_abilities.abilities.legendary.multi,scores={ancient_abilities.multi.effect_cooldown=1..}] run function ancient_abilities:abilities/multi/cooldown_tick
 
 # Tick enchanter levels

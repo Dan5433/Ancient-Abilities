@@ -6,6 +6,8 @@ attribute @s movement_speed modifier remove ancient_abilities:multi
 attribute @s max_health modifier remove ancient_abilities:multi
 attribute @s fall_damage_multiplier modifier remove ancient_abilities:multi
 
+scoreboard players reset @s ancient_abilities.multi.effect_cooldown
+
 effect clear @s absorption
 effect clear @s breath_of_the_nautilus
 effect clear @s dolphins_grace
