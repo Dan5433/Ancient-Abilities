@@ -1,2 +1,3 @@
-scoreboard players reset $player_has_data ancient_abilities.temp
-$execute if data storage ancient_abilities:player_database players[{UUID:$(UUID)}].$(data) run scoreboard players set $player_has_data ancient_abilities.temp 1
+scoreboard players reset $stored_player_data_result ancient_abilities.temp
+function ancient_abilities:player_database/get_player_to_out
+$execute store result score $stored_player_data_result ancient_abilities.temp run data get storage ancient_abilities:player_database out.$(data)
