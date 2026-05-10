@@ -77,7 +77,6 @@ execute as @a[team=ancient_abilities.abilities.legendary.invis] unless predicate
 
 # Multi
 execute as @a[team=ancient_abilities.abilities.legendary.multi] run function ancient_abilities:abilities/multi/passive
-execute as @a[team=ancient_abilities.abilities.legendary.multi] unless score @s ancient_abilities.multi.effect_cooldown matches 1.. run function ancient_abilities:abilities/multi/roll_effect
 
 
 # Tick startup on specific abilities

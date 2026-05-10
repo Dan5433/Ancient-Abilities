@@ -4,4 +4,4 @@ execute as @s[team=ancient_abilities.oaths.hunter] run return run loot give @s l
 
 execute as @s[team=ancient_abilities.abilities.epic.healer] run return run loot give @s loot ancient_abilities:ability_items/healer
 
-execute as @s[team=ancient_abilities.abilities.legendary.miner] run return run loot give @s loot ancient_abilities:ability_items/miner
+execute as @s[team=ancient_abilities.abilities.legendary.miner] run return run function ancient_abilities:abilities/miner/try_give_pickaxe

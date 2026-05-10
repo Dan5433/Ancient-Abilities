@@ -1,3 +1,6 @@
+execute as @s[tag=ancient_abilities.restricted] run return run title @s actionbar {text:"Restricted",color:red}
+
+
 scoreboard players remove @s ancient_abilities.multi.effect_cooldown 1
 
 

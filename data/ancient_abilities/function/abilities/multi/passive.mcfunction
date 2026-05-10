@@ -1,3 +1,6 @@
+execute as @s[tag=ancient_abilities.restricted] run return run title @s actionbar {text:"Restricted",color:red}
+
+
 effect give @s conduit_power 1 0
 
 # 20% resistance
