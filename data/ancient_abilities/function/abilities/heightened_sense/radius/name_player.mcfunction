@@ -1,6 +1,6 @@
 data modify storage ancient_abilities:temp revealUUID set from entity @s UUID
 $data modify storage ancient_abilities:temp data set value "revealed[{UUID:$(revealUUID)}]"
-function ancient_abilities:player_database/does_player_have_data with storage ancient_abilities:temp
+$execute as @a[nbt={UUID:$(UUID)}] run function ancient_abilities:player_database/does_player_have_data with storage ancient_abilities:temp
 
 execute if score $player_has_data ancient_abilities.temp matches 1 run return fail
 
