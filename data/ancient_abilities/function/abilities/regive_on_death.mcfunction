@@ -1,5 +1,6 @@
 scoreboard players set @s ancient_abilities.deaths 0
 
+clear @s *[custom_data~{ancient_abilities: { ability_item: true}}]
 execute as @s[tag=ancient_abilities.restricted] run return run title @s actionbar {text:"Restricted",color:red}
 
 
