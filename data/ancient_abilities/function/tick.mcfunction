@@ -6,7 +6,7 @@ kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ancient_abilit
 execute as @a if items entity @s player.cursor *[custom_data~{ancient_abilities:{ability_item:true}}] run item replace entity @s player.cursor with air
 
 # Regive attributes after death
-execute as @e[type=player,scores={ancient_abilities.deaths=1..}] run function ancient_abilities:abilities/regive_attributes
+execute as @e[type=player,scores={ancient_abilities.deaths=1..}] run function ancient_abilities:abilities/regive_on_death
 
 # Control ability recipes
 execute as @a run function ancient_abilities:abilities/recipes/control
