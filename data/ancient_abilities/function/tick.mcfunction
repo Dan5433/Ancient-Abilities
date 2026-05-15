@@ -45,6 +45,10 @@ execute as @a[advancements={ancient_abilities:right_click_ability_item=true}] ru
 # Teleport other entities to safe location
 execute as @e[team=ancient_abilities.warped] at @s run function ancient_abilities:abilities/warp_gate/warp/tp_to_safe_location
 
+# Teleport entities in the nothingness void back to the overworld
+execute in ancient_abilities:the_nothingness as @e[team=!ancient_abilities.abilities.unique.warp_gate,predicate=ancient_abilities:deep_in_void] at @s run function ancient_abilities:abilities/warp_gate/warp_other
+
+
 # Summoning
 # Befriend mobs
 execute as @a[team=ancient_abilities.abilities.unique.summoning] at @s run team join ancient_abilities.abilities.unique.summoning @e[distance=..10,type=!#ancient_abilities:unfriendable]
