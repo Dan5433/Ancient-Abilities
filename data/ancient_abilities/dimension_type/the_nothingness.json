@@ -7,6 +7,13 @@
         "tick_chance": 0.001
       }
     },
+    "audio/background_music": {
+      "default": {
+        "sound": "minecraft:music_disc.5",
+        "min_delay": 600,
+        "max_delay": 1800
+      }
+    },
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/sky_color": "#391818",
     "minecraft:gameplay/can_start_raid": false,
