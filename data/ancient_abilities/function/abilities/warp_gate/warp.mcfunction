@@ -1,4 +1,4 @@
-scoreboard players set @s ancient_abilities.ability_right_click_cooldown 300
+scoreboard players set @s ancient_abilities.ability_right_click_cooldown 165
 
 effect give @s darkness 10 0
 effect give @s nausea 10 0
