@@ -66,6 +66,9 @@ execute as @a[team=ancient_abilities.abilities.rare.radius] at @s run function a
 # Super Durability
 execute as @a[team=ancient_abilities.abilities.epic.durability] run function ancient_abilities:abilities/super_durability/passive
 
+# Super Speed
+execute as @a[team=ancient_abilities.abilities.epic.speed] at @s run function ancient_abilities:abilities/super_speed/passive
+
 # Delay
 execute as @a[team=ancient_abilities.abilities.epic.delay,scores={ancient_abilities.ability_startup_timer=..0}] at @s run execute as @e[distance=..25] run function ancient_abilities:abilities/delay/apply_damage with storage ancient_abilities:temp
 execute as @a[team=ancient_abilities.abilities.epic.delay,scores={ancient_abilities.ability_startup_timer=..0}] run function ancient_abilities:abilities/delay/reset
