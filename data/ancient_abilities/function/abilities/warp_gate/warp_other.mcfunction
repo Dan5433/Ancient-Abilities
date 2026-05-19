@@ -1,4 +1,4 @@
-team join ancient_abilities.warped @s
+tag @s add ancient_abilities.warped
 tag @s remove ancient_abilities.given_ability.warp_gate
 
 effect give @s resistance 5 4 true

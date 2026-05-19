@@ -31,7 +31,6 @@ team add ancient_abilities.abilities.unique.adaptation
 team add ancient_abilities.abilities.unique.viltrumite
 
 # Misc/extra
-team add ancient_abilities.warped
 scoreboard objectives add ancient_abilities.deaths deathCount
 scoreboard objectives add ancient_abilities.crouched dummy
 

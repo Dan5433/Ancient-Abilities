@@ -43,7 +43,7 @@ execute as @a[advancements={ancient_abilities:right_click_ability_item=true}] ru
 
 # Warp Gate
 # Teleport other entities to safe location
-execute as @e[team=ancient_abilities.warped] at @s run function ancient_abilities:abilities/warp_gate/warp/tp_to_safe_location
+execute as @e[tag=ancient_abilities.warped] at @s run function ancient_abilities:abilities/warp_gate/warp/tp_to_safe_location
 
 # Teleport entities in the nothingness void back to the overworld
 execute in ancient_abilities:the_nothingness as @e[team=!ancient_abilities.abilities.unique.warp_gate,predicate=ancient_abilities:deep_in_void] at @s run function ancient_abilities:abilities/warp_gate/warp_other
