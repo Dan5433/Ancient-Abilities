@@ -33,6 +33,10 @@ team remove ancient_abilities.abilities.unique.viltrumite
 # Misc/extra
 scoreboard objectives remove ancient_abilities.deaths
 scoreboard objectives remove ancient_abilities.crouched
+scoreboard objectives remove ancient_abilities.sprint
+scoreboard objectives remove ancient_abilities.swim
+scoreboard objectives remove ancient_abilities.walk
+scoreboard objectives remove ancient_abilities.walk_under_water
 
 # Scores
 scoreboard objectives remove ancient_abilities.given_ability_startup_timer
