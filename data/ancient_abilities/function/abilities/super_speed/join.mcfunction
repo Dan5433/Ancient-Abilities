@@ -1,6 +1,12 @@
 # double total movement speed
 attribute @s movement_speed modifier add ancient_abilities:super_speed 1 add_multiplied_total
 
+# add 75% attack speed
+attribute @s attack_speed modifier add ancient_abilities:super_speed 0.75 add_multiplied_total
+
+# double attack speed
+attribute @s block_break_speed modifier add ancient_abilities:super_speed 1 add_multiplied_total
+
 
 execute as @s[team=ancient_abilities.abilities.epic.speed] run return fail
 

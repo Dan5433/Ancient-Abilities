@@ -33,6 +33,10 @@ team add ancient_abilities.abilities.unique.viltrumite
 # Misc/extra
 scoreboard objectives add ancient_abilities.deaths deathCount
 scoreboard objectives add ancient_abilities.crouched dummy
+scoreboard objectives add ancient_abilities.sprint custom:sprint_one_cm
+scoreboard objectives add ancient_abilities.swim custom:swim_one_cm
+scoreboard objectives add ancient_abilities.walk custom:walk_one_cm
+scoreboard objectives add ancient_abilities.walk_under_water custom:walk_under_water_one_cm
 
 # Scores
 scoreboard objectives add ancient_abilities.given_ability_startup_timer dummy
