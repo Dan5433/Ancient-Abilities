@@ -16,7 +16,7 @@ You only need vanilla Minecraft to use the datapack since it's not a mod.
 
 1. Download the ZIP file of the respective version from the releases tab
 2. Move the ZIP to the `datapacks` folder in your world save folder
-3. Reload the world or just run `/reload`. You should get a chat message if the datapack successfully loaded.
+3. Save and exit, then enter the world to reload datapacks. You should get a chat message if the datapack successfully loaded
 
 This datapack is also on [Modrinth](https://modrinth.com/project/EKfY4mNW), so you could use that instead.
 
